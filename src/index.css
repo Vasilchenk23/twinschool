@@ -1,13 +1,58 @@
 body {
-  margin: 0;
+  margin: 30px 0px 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1C3664;
+  color: #FFFFFF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('./fonts/Montserrat-Bold.ttf');
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-items{
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+}
+
+.join-us{
+  width: 183px;
+  height: 66px;
+  background-color: #FFA800;
+  color: #040406;
+  border-radius: 40px;
+  text-align: center;
+  border: none;
+  font-family: Montserrat-Bold;
+  font-size: 24px;
+}
+
+.join-us:active{
+  border: 3px solid #FFA800;
+  background-color: #FFFFFF;
+}
+
+.join-us:hover{
+  border: 3px solid #FFA800;
+  background-color: #FFFFFF;
+}
+
+
+a {
+  all: unset;
 }
