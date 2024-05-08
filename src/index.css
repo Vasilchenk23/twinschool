@@ -14,6 +14,26 @@ code {
     monospace;
 }
 
+::-webkit-scrollbar {
+  width: 6px; 
+  }
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 @font-face {
   font-family: Montserrat-Bold;
   src: url('./fonts/Montserrat-Bold.ttf');
@@ -93,18 +113,22 @@ a {
 
 .orange {
   color: #FFA800;
+  font-family: SigmarOne-Regular;
 }
 
 .blue {
   color: #4D80C1;
+  font-family: SigmarOne-Regular;
 }
 
 .green {
   color: #71B561;
+  font-family: SigmarOne-Regular;
 }
 
 .red {
   color: #DB5245;
+  font-family: SigmarOne-Regular;
 }
 
 .join-us-main{
@@ -139,3 +163,36 @@ a {
   font-size: 22px;
 }
 
+/* About */
+
+.h2-about{
+  text-align: center;
+  font-size: 40px;
+  font-family: Montserrat-Regular;
+  margin-top: 100px;
+}
+
+.page-about{
+  width: 806px;
+  height: 184px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 25px;
+  font-family: Montserrat-Regular;
+}
+
+.block-about{
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  width: 80%;
+  margin: 200px auto;
+}
+
+.presentation{
+  width: 1100px;
+  height: 600px;
+  border: 10px solid #FFFFFF;
+  display: flex;
+  margin: 100px auto;
+  border-radius: 30px;
+}
