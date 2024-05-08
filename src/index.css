@@ -19,6 +19,16 @@ code {
   src: url('./fonts/Montserrat-Bold.ttf');
 }
 
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: SigmarOne-Regular;
+  src: url('./fonts/SigmarOne-Regular.ttf');
+}
+
 header{
   display: flex;
   justify-content: space-around;
@@ -56,3 +66,76 @@ header{
 a {
   all: unset;
 }
+
+/* Component Main */
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar2 {
+  display: flex;
+  align-items: end;
+}
+
+.main {
+  text-align: center;
+  width: 576px;
+  height: 380px;
+  margin-top: 100px;
+}
+
+.orange {
+  color: #FFA800;
+}
+
+.blue {
+  color: #4D80C1;
+}
+
+.green {
+  color: #71B561;
+}
+
+.red {
+  color: #DB5245;
+}
+
+.join-us-main{
+  width: 280px;
+  height: 100px;
+  background-color: #FFA800;
+  color: #040406;
+  border-radius: 60.6px;
+  text-align: center;
+  border: none;
+  font-family: Montserrat-Bold;
+  font-size: 36.6px;
+  margin-top: 50px;
+}
+
+.join-us-main:active{
+  border: 3px solid #FFA800;
+  background-color: #FFFFFF;
+}
+
+.join-us-main:hover{
+  border: 3px solid #FFA800;
+  background-color: #FFFFFF;
+}
+
+.title{
+  font-family: SigmarOne-Regular;
+}
+
+.page-title{
+  font-family: Montserrat-Regular;
+  font-size: 22px;
+}
+
