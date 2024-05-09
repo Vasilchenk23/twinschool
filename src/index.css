@@ -271,3 +271,87 @@ a {
   width: 80%;
   margin: 100px auto;
 }
+
+/* Program */
+
+.block-program{
+  border-bottom: 1px solid #FFFFFF;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.h2-program{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+.page-program {
+  margin: 0 auto;
+  text-align: center;
+  width: 829px;
+  height: 60px;
+  text-align: center;
+  font-family: Montserrat-Regular;
+  margin: 20px auto;
+  font-size: 25px;
+}
+
+.learn-more{
+  display: flex;
+  justify-content: space-around;
+}
+
+.program{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.info-learn-block{
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+}
+
+.item-block{
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.item-block2{
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.button-program{
+  width: 155px;
+  height: 53px;
+  border-radius: 12px;
+  background-color: #1C3664;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: none;
+  font-family: Montserrat-Bold;
+  cursor: pointer;
+}
+
+.title-program{
+  color: #1C3664;
+  font-size: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.group-program{
+  color: #FFA800;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.time-program{
+  color: #1C3664;
+}
