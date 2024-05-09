@@ -185,7 +185,7 @@ a {
   border-top: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
   width: 80%;
-  margin: 200px auto;
+  margin: 100px auto;
 }
 
 .presentation{
@@ -195,4 +195,79 @@ a {
   display: flex;
   margin: 100px auto;
   border-radius: 30px;
+}
+
+/* History */
+
+.team {
+  display: block;
+  margin: 0 auto;
+}
+
+.h2-history{
+  text-align: center;
+  font-size: 40px;
+}
+
+.page{
+  text-align: center;
+  width: 877px;
+  height: 60px;
+  font-size: 25px;
+  font-family: Montserrat-Regular;
+  margin: 0 auto;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 100px auto;
+}
+
+.block {
+  width: 188px;
+  height: 188px;
+  border: 1px solid red;
+  border-radius: 100px;
+  align-items: center;
+  text-align: center;
+  line-height: 30px; 
+  margin: auto; 
+}
+
+.page-info {
+  width: 103px;
+  height: 52px;
+  margin: 0 auto;
+}
+
+.page-history{
+  text-align: center;
+  width: 746px;
+  height: 30px;
+  font-size: 25px;
+  font-family: Montserrat-Regular;
+  margin: 40px auto 0px;
+}
+
+.page-facebook{
+  text-align: center;
+  width: 288px;
+  height: 30px;
+  font-size: 25px;
+  font-family: Montserrat-Regular;
+  margin: 6px auto 40px;
+}
+
+.link-facebook{
+  color: #FFA800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.block-history{
+  border-bottom: 1px solid #FFFFFF;
+  width: 80%;
+  margin: 100px auto;
 }
