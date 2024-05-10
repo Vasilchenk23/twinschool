@@ -221,19 +221,49 @@ a {
 .blocks {
   display: flex;
   justify-content: space-around;
-  width: 60%;
+  width: 90%;
   margin: 100px auto;
 }
 
-.block {
-  width: 188px;
-  height: 188px;
-  border: 1px solid red;
-  border-radius: 100px;
-  align-items: center;
+.image-container {
+  position: relative;
+  display: inline-block; 
+}
+
+.block1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  line-height: 30px; 
-  margin: auto; 
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.block2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.block3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .page-info {
@@ -354,4 +384,124 @@ a {
 
 .time-program{
   color: #1C3664;
+}
+
+/* Fqa component */
+
+.title-fqa{
+  font-size: 40px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.block-fqa {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  width: 860px;
+  height: 98px;
+  border-radius: 20px;
+  border: 1px solid #FFFFFF;
+  margin: 50px auto 20px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  cursor: pointer; 
+  transition: height 0.3s; 
+}
+
+.block-fqa.expanded {
+  height: 250px; 
+}
+
+
+.fqa-button {
+  display: block;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.block-main {
+  border-bottom: 1px solid #FFFFFF;
+  width: 80%;
+  margin: 0px auto;
+}
+
+/* Team component  */
+
+.team {
+  display: flex;
+  flex-wrap: wrap; 
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.team-card {
+  width: 25%; 
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+
+.name-person {
+  width: 112px;
+  height: 34px;
+}
+
+.job-title{
+  width: 130px;
+  height: 22px;
+}
+
+.main-team{
+  border-bottom: 1px solid #FFFFFF;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.title-team {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-team {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Supported component */
+
+.title-support {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.support {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+
+.support-item {
+  width: 246px;
+  height: 146px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.support-block{
+  border-bottom: 1px solid #FFFFFF;
+  width: 80%;
+  margin: 0px auto;
 }

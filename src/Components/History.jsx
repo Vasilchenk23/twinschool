@@ -31,17 +31,26 @@ export const History = () => {
           Currently, in the online program:
         </p>
         <div className="blocks">
-          <div className="block">
+        <div class="image-container">
+          <img src="./img/photo-decor.png" alt=""/>
+          <div class="block1">
             <Counter endValue={650} />
-            <p className="page-info">schools have joined the program</p>
+            <p class="page-info">schools have joined the program</p>
           </div>
-          <div className="block">
-            <Counter endValue={2000} />
-            <p className="page-info">students have taken part</p>
+        </div>
+        <div className="image-container">
+          <img src="./img/photo-decor.png" alt="" />
+          <div className="block2">
+              <Counter endValue={2000} />
+              <p className="page-info">students have taken part</p>
           </div>
-          <div className="block">
-            <Counter endValue={100} />
-            <p className="page-info">schools have finished the program</p>
+        </div>
+          <div className="image-container">
+            <img src="./img/photo-decor.png" alt="" />
+            <div className="block3">
+              <Counter endValue={100} />
+              <p className="page-info">schools have finished the program</p>
+            </div>
           </div>
         </div>
         <img className="team" src="./img/image-4.png" alt="team" />
