@@ -60,6 +60,19 @@ header{
   width: 600px;
 }
 
+.header-items-about:hover, 
+.header-items-history:hover,
+.header-items-program:hover,
+.header-items-team:hover,
+.header-items-faqs:hover,
+.header-items-partners:hover,
+.header-items-contact:hover,
+.header-items-gallery:hover {
+  color: #FFA800;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .join-us{
   width: 183px;
   height: 66px;
@@ -70,21 +83,26 @@ header{
   border: none;
   font-family: Montserrat-Bold;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .join-us:active{
   border: 3px solid #FFA800;
   background-color: #FFFFFF;
+  cursor: pointer;
 }
 
 .join-us:hover{
   border: 3px solid #FFA800;
   background-color: #FFFFFF;
+  cursor: pointer;
+  color: #1C3664;
 }
 
 
 a {
   all: unset;
+  cursor: pointer;
 }
 
 /* Component Main */
@@ -152,6 +170,8 @@ a {
 .join-us-main:hover{
   border: 3px solid #FFA800;
   background-color: #FFFFFF;
+  cursor: pointer;
+  color: #1C3664;
 }
 
 .title{
@@ -195,6 +215,10 @@ a {
   display: flex;
   margin: 100px auto;
   border-radius: 30px;
+}
+
+.presentation-file {
+  border-radius: 20px;
 }
 
 /* History */
@@ -291,9 +315,15 @@ a {
 }
 
 .link-facebook{
-  color: #FFA800;
+  color: #FFCA28;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.link-facebook:hover {
+  color: #FFA800;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .block-history{
@@ -369,6 +399,10 @@ a {
   cursor: pointer;
 }
 
+.button-program:hover {
+  background-color: #FFA800;
+}
+
 .title-program{
   color: #1C3664;
   font-size: 30px;
@@ -386,6 +420,14 @@ a {
   color: #1C3664;
 }
 
+/* Gallery  component*/
+
+.slider {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 /* Fqa component */
 
 .title-fqa{
@@ -402,7 +444,7 @@ a {
   height: 98px;
   border-radius: 20px;
   border: 1px solid #FFFFFF;
-  margin: 50px auto 20px;
+  margin: 50px auto 50px;
   text-align: center;
   align-items: center;
   align-content: center;
@@ -436,43 +478,40 @@ a {
 .team {
   display: flex;
   flex-wrap: wrap; 
-  margin: 0 auto;
+  width: 100%;
   justify-content: center;
 }
 
 .team-card {
-  width: 25%; 
+  width: 24%; 
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin: 50px 0px;
 }
 
 .name-person {
-  width: 112px;
+  width: 160px;
   height: 34px;
 }
 
 .job-title{
   width: 130px;
-  height: 22px;
-}
-
-.main-team{
-  border-bottom: 1px solid #FFFFFF;
-  width: 80%;
-  margin: 0px auto;
+  height: 50px;
 }
 
 .title-team {
   margin: 0 auto;
   text-align: center;
+  font-size: 40px;
 }
 
 .page-team {
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
+  font-size: 25px;
 }
 
 /* Supported component */
@@ -498,10 +537,12 @@ a {
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
+  border: 1px solid #FFA800;
 }
 
 .support-block{
   border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
   width: 80%;
   margin: 0px auto;
 }

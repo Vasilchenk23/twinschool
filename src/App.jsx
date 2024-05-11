@@ -6,6 +6,7 @@ import { Program } from "./Components/Program";
 import { Fqa } from "./Components/Fqa";
 import { Team } from "./Components/Team";
 import { Support } from "./Components/Support";
+import { Gallery } from "./Components/Gallery";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <About/>
     <History/>
     <Program/>
+    <Gallery/>
     <Fqa/>
     <Team/>
     <Support/>

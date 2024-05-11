@@ -1,7 +1,7 @@
 export const Support = () => {
     return(
         <>
-        <div className="support-block">
+        <div id="partners" className="support-block">
             <h2 className="title-support">Supported by</h2>
             <div className="support">
                 <div className="support-item">

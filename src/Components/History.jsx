@@ -24,7 +24,7 @@ export const History = () => {
 
   return (
     <>
-      <div className="block-history">
+      <div id="history" className="block-history">
         <h2 className="h2-history">History</h2>
         <p className="page">
           It began with the cultures of Ukraine and Lithuania coming together.

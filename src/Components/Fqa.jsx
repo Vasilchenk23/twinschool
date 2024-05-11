@@ -9,7 +9,7 @@ export const Fqa = () => {
 
     return(
         <>
-            <h2 className="title-fqa">Frequently Asked Questions</h2>
+            <h2 id='faqs' className="title-fqa">Frequently Asked Questions</h2>
             <div className="block-main">
                 <div className="fqa">
                     <div className={`block-fqa ${expanded ? 'expanded' : ''}`} onClick={toggleHeight}>

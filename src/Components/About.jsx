@@ -1,7 +1,7 @@
 export const About = () => {
     return(
         <>
-        <div className="block-about">
+        <div id="about" className="block-about">
             <h2 className="h2-about">What is Twinschools</h2>
             <p className="page-about">
                     <span class="orange">T</span>
@@ -21,7 +21,7 @@ export const About = () => {
                     and build lifelong connections.
             </p>
             <div className="presentation">
-
+                <embed className="presentation-file" src="./Twinschools-worldwide-schools.pdf" type="application/pdf"  width="1100px" height="auto" toolbar="0" />
             </div>
         </div>
         </>

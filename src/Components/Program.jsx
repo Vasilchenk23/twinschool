@@ -1,7 +1,7 @@
 export const Program = () => {
     return(
         <>
-        <div className="block-program">
+        <div id="program" className="block-program">
             <h2 className="h2-program">Program</h2>
             <p className="page-program">Twinschools offers two programs for students different ages. Learn more about our programs</p>
             <div className="program">

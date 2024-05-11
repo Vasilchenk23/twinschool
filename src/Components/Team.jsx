@@ -1,7 +1,7 @@
 export const Team = () => {
     return(
         <>
-            <div className="main-team">
+            <div id="team" className="main-team">
                 <h2 className="title-team">Our Team</h2>
                 <p className="page-team">We are international and welcoming team</p>
                 <div className="team">
