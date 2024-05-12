@@ -7,6 +7,7 @@ import { Fqa } from "./Components/Fqa";
 import { Team } from "./Components/Team";
 import { Support } from "./Components/Support";
 import { Gallery } from "./Components/Gallery";
+import { Contact } from "./Components/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Fqa/>
     <Team/>
     <Support/>
+    <Contact/>
     </>
   );
 }

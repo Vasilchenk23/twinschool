@@ -427,6 +427,32 @@ a {
   justify-content: space-around;
 }
 
+.buttons {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+
+.title-gallery {
+  font-size: 40px;
+  text-align: center;
+  font-family: Montserrat-Bold;
+}
+
+.page-gallery {
+  font-size: 25px;
+  text-align: center;
+  font-family: Montserrat-Regular;
+}
+
+.block-gallery { 
+  border-bottom: 1px solid #FFFFFF;
+  width: 80%;
+  margin: 0px auto;
+}
+
 
 /* Fqa component */
 
@@ -503,7 +529,7 @@ a {
 }
 
 .title-team {
-  margin: 0 auto;
+  margin: 100px auto 50px;
   text-align: center;
   font-size: 40px;
 }
