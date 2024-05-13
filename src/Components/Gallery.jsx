@@ -13,7 +13,7 @@ export const Gallery = () => {
 
     return (
         <>
-            <div className="block-gallery">
+            <div id='gallery' className="block-gallery">
                 <h2 className='title-gallery'>Pictures from meetings</h2>
                 <p className='page-gallery'>The process of holding meetings</p>
                 <div className="slider">

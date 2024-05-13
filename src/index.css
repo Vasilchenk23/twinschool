@@ -572,3 +572,136 @@ a {
   width: 80%;
   margin: 0px auto;
 }
+
+/* Contact component */
+
+.twinschool-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-contact{ 
+  text-decoration: underline;
+}
+
+.email-company {
+  text-decoration: underline;
+}
+
+.plane {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  display: flex;
+  width: 579px;
+  justify-content: space-between;
+}
+
+.contact{
+  text-align: center;
+}
+
+.block-first-name {
+   width: 275px;
+   height: 65px;
+   border: 1px solid #FFFFFF;
+   border-radius: 12px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.block-last-name {
+  width: 275px;
+  height: 65px;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.block-email {
+  width: 577.41px;
+  margin-top: 20px;
+  height: 65px;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.block-email-info {
+  display: flex;
+  justify-content: space-between;
+  width: 232px;
+  padding-left: 23px;
+  align-items: center;
+}
+
+input:focus {
+  outline: none; 
+  border-color: transparent; 
+  box-shadow: none;
+}
+
+input {
+  border: none;
+  background-color: #1C3664;
+  color: #FFA800;
+}
+
+::placeholder {
+  color: #f1f1f1;
+}
+
+.describe {
+  width: 552px;
+  height: 148px;
+  background-color: #1C3664;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+  color: #FFA800;
+  padding-left: 23px;
+  padding-top: 20px;
+}
+
+.describe:focus {
+  outline: none; 
+  border-color: transparent; 
+  box-shadow: none;
+  border: 1px solid #FFFFFF;
+}
+
+.submit {
+  width: 134.65px;
+  height: 61.38px;
+  border: 1px solid #FFA800;
+  border-radius: 13.91px;
+  background-color: #1C3664;
+  color: #FFFFFF;
+}
+
+.block-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.block-contact {
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  width: 80%;
+  margin: 0px auto;
+}
