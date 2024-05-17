@@ -1,4 +1,27 @@
+import React, { useState } from 'react';
+import axios from 'axios';
+
 export const Contact = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        surname: '',
+        email: '',
+        question: ''
+      });
+    
+      const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+      };
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+          await axios.post('https://back-twinschool-production.up.railway.app/api/send-email', formData);
+          alert('Електронний лист успішно відправлено! 😊');
+        } catch (error) {
+          alert('Не вдалося відправити лист. Будь ласка, спробуйте знову. 😞');
+        }
+      };
     return(
         <>
         <div id="contact" className="block-contact">
@@ -51,7 +74,15 @@ export const Contact = () => {
                                 </clipPath>
                                 </defs>
                             </svg>
-                            <input placeholder="First Name" type="text" className="first-name" />
+                            <input 
+                                placeholder="First Name" 
+                                type="text" 
+                                className="first-name" 
+                                autoComplete="username"
+                                value={formData.name}
+                                onChange={handleChange}
+                                required
+                            />
                         </div>
                         <div className="block-last-name">
                             <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +95,15 @@ export const Contact = () => {
                                 </clipPath>
                                 </defs>
                             </svg>
-                            <input placeholder="Last Name" type="text"  className="last-name"/>
+                            <input 
+                                placeholder="Last Name" 
+                                type="text"  
+                                className="surname"
+                                autoComplete="surname"
+                                value={formData.name}
+                                onChange={handleChange}
+                                required
+                            />
                         </div>
                     </div>
                     <div className="block-email">
@@ -72,14 +111,32 @@ export const Contact = () => {
                         <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M21.5373 0.982422H2.98613C1.71074 0.982422 0.678831 2.02593 0.678831 3.30132L0.667236 17.2147C0.667236 18.4901 1.71074 19.5336 2.98613 19.5336H21.5373C22.8127 19.5336 23.8562 18.4901 23.8562 17.2147V3.30132C23.8562 2.02593 22.8127 0.982422 21.5373 0.982422ZM21.5373 5.62022L12.2617 11.4175L2.98613 5.62022V3.30132L12.2617 9.09857L21.5373 3.30132V5.62022Z" fill="#FFA800"/>
                         </svg>
-                        <input type="email" className="email"  placeholder="Email"/>
+                        <input 
+                            type="email" 
+                            className="email"  
+                            placeholder="Email"
+                            autoComplete="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            required
+                        />
                         </div>
                     </div>
                     <br />
-                    <textarea placeholder="Describe the question" cols="30" rows="10" className="describe"></textarea>
+                    <textarea 
+                        placeholder="Describe the question"
+                        cols="30" 
+                        rows="10" 
+                        className="describe"
+                        name="question"
+                        autoComplete="question"
+                        value={formData.question}
+                        onChange={handleChange}
+                        required
+                    ></textarea>
                     <br />
                     <div className="block-submit">
-                        <button type="submit" className="submit">Submit</button>
+                        <button type="submit" className="submit" onClick={handleSubmit}>Submit</button>
                     </div>
                 </div>
             </div>
