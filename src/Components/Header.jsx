@@ -43,7 +43,7 @@ export const Header = () => {
     return(
         <>
         <header>
-            <div className="logo-block">
+            <div className="logo-block" id="main">
                 <img src="./img/logo.jpg" alt="" />
             </div>
             <div className="header-items">

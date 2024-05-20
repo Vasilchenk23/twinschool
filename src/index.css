@@ -683,11 +683,23 @@ a {
 
 input:focus {
   outline: none; 
-  border-color: transparent; 
+  border-color: #1C3664; 
   box-shadow: none;
 }
 
 input {
+  border: none;
+  background-color: #1C3664;
+  color: #FFA800;
+}
+
+input:active {
+  border: none;
+  background-color: #1C3664;
+  color: #FFA800;
+}
+
+input:focus {
   border: none;
   background-color: #1C3664;
   color: #FFA800;
@@ -722,6 +734,12 @@ input {
   border-radius: 13.91px;
   background-color: #1C3664;
   color: #FFFFFF;
+  font-size: 20.87px;
+  font-family: Montserrat-Bold;
+}
+
+.submit:hover {
+  background-color: #FFA800;
 }
 
 .block-submit {
@@ -742,3 +760,12 @@ input {
   width: 80%;
   margin: 0px auto;
 }
+
+textarea {
+  font-family: Montserrat-Regular;
+}
+
+.logo-footer{
+  cursor: pointer;
+}
+

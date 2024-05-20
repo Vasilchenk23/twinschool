@@ -10,18 +10,25 @@ export const Contact = () => {
       });
     
       const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-      };
-    
-      const handleSubmit = async (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-          await axios.post('https://back-twinschool-production.up.railway.app/api/send-email', formData);
-          alert('Електронний лист успішно відправлено! 😊');
+            await axios.post('https://back-twinschool-production.up.railway.app/api/send-email', formData);
+            alert('Електронний лист успішно відправлено! 😊');
         } catch (error) {
-          alert('Не вдалося відправити лист. Будь ласка, спробуйте знову. 😞');
+            alert('Не вдалося відправити лист. Будь ласка, спробуйте знову. 😞');
         }
-      };
+    };
+
+    const scrollToAbout = () => {
+        const aboutSection = document.getElementById('main');
+        aboutSection.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return(
         <>
         <div id="contact" className="block-contact">
@@ -48,7 +55,9 @@ export const Contact = () => {
                     <p>Company code 306362824,<br />J. Savickio st. 4-7, <br />LT-01108 <br />Vilnius, Lithuania</p>
                     <br />
                     <p>Email Us: </p>
-                    <p className="email-company">ukraine@twinschools.org</p>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+                        <p className="email-company">ukraine@twinschools.org</p>
+                    </a>
                     <h4>Follow Us On:</h4>
                         <a href="https://www.facebook.com/twinschools/" target="_blank" rel="noopener noreferrer">
                             <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,6 +91,7 @@ export const Contact = () => {
                                         type="text" 
                                         className="first-name" 
                                         autoComplete="name"
+                                        name='name'
                                         value={formData.name}
                                         onChange={handleChange}
                                         required
@@ -102,8 +112,8 @@ export const Contact = () => {
                                         placeholder="Last Name" 
                                         type="text"  
                                         className="surname"
-                                        autoComplete="surname"
-                                        value={formData.surname || ''}
+                                        name='surname'
+                                        value={formData.surname}
                                         onChange={handleChange}
                                         required
                                     />
@@ -118,7 +128,7 @@ export const Contact = () => {
                                     type="email" 
                                     className="email"  
                                     placeholder="Email"
-                                    autoComplete="email"
+                                    name='email'
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
@@ -146,7 +156,7 @@ export const Contact = () => {
             </div>
         </div>
         <div className="footer-logo">
-            <img src="./img/logo.jpg" alt="" />
+            <img onClick={scrollToAbout} className='logo-footer' src="./img/logo.jpg" alt="" />
             <p>© 2024. All Rights Reserved</p>
         </div>
         </>
