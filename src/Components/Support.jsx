@@ -12,9 +12,12 @@ export const Support = () => {
                     <img src="./img/support/let-do-it.png" alt="" />
                 </div>
                 <div className="support-item move-right delay-3">
-                    <img src="./img/support/mon.png" alt="" />
+                    <img src="./img/support/pic-indian.png" alt="" />
                 </div>
                 <div className="support-item move-right delay-4">
+                    <img src="./img/support/mon.png" alt="" />
+                </div>
+                <div className="support-item move-right delay-5">
                     <img src="./img/support/pic.png" alt="" />
                 </div>
             </div>
