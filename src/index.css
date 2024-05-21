@@ -113,20 +113,25 @@ a {
   }
 
   .header-items {
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
-  }
+    flex-direction: column;
+    gap: 10px;
+    width: 230%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+    font-size: 25px;
+}
 
   .header-items p {
       padding: 10px 0;
       width: 100%;
-      text-align: center;
+      text-align: center;   
   }
 
   .join-us {
-      width: 100%;
-      text-align: center;
+      display: none;
   }
 }
 
@@ -220,11 +225,12 @@ a {
   }
 
   .main {
-      width: 100%;
+      width: 230%;
+      margin: 100px auto;
   }
 
   .title {
-      font-size: 1.5rem;
+      font-size: 3rem;
       margin-bottom: 10px;
   }
 
@@ -280,10 +286,22 @@ a {
 
 @media (max-width: 768px) {
 .presentation {
-  width: 500px;
+  width: 270%;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid red
+}
+.h2-about {
+  display: block;
+  width: 270%;
+  border: 1px solid red;
+  margin: 20px auto;
 }
 .page-about{
-  width: 550px;
+  width: 270%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 }
 
@@ -404,9 +422,22 @@ a {
 }
 .image-container {
   margin-top: 30px;
+  width: 270%;
+}
+.h2-history {
+  width: 270%;
 }
 .page {
-  width: 350px;
+  width: 270%
+}
+.decor {
+ margin: 0px 0px 0px 235px;
+}
+.page-history {
+  width: 400px;
+}
+.page-facebook {
+  margin-top: 70px;
 }
 }
   
@@ -503,12 +534,20 @@ a {
 .program {
   display: block;
 }  
+.h2-program {
+  width: 340%;
+}
 .item-block {
-  width: 72.5%;
+  width: 134%;
+  margin-left: 290px;
 }
 .item-block2 {
-  width: 72.5%;
+  width: 134%;
   margin-top: 30px;
+  margin-left: 290px;
+}
+.page-program {
+  width: 300%;
 }
 }
 
@@ -560,7 +599,14 @@ a {
   margin: 0px auto;
 }
 
-
+@media (max-width: 768px) {
+  .title-gallery {
+    width: 300%;
+  }
+  .page-gallery {
+    width: 300%;
+  }
+}
 /* FQA Component */
 
 .title-fqa {
@@ -742,6 +788,12 @@ a {
   border-top: 1px solid #FFFFFF;
   width: 80%;
   margin: 0px auto;
+}
+
+@media (max-width: 767px) {
+  .support {
+      display: block;
+  }
 }
 
 /* Contact component */
@@ -931,6 +983,12 @@ input:not(:placeholder-shown) + .placeholder {
   pointer-events: none;
   font-size: 16px;
   color: #aaa;
+}
+
+@media (max-width: 767px) {
+  .twinschool-form {
+    display: block;
+  }
 }
 
 

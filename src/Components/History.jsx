@@ -32,21 +32,21 @@ export const History = () => {
         </p>
         <div className="blocks">
         <div className="image-container">
-          <img src="./img/photo-decor.png" alt=""/>
+          <img className="decor" src="./img/photo-decor.png" alt=""/>
           <div className="block1">
             <Counter endValue={650} />
             <p className="page-info">schools have joined the program</p>
           </div>
         </div>
         <div className="image-container">
-          <img src="./img/photo-decor.png" alt="" />
+          <img className="decor" src="./img/photo-decor.png" alt="" />
           <div className="block2">
               <Counter endValue={2000} />
               <p className="page-info">students have taken part</p>
           </div>
         </div>
           <div className="image-container">
-            <img src="./img/photo-decor.png" alt="" />
+            <img className="decor" src="./img/photo-decor.png" alt="" />
             <div className="block3">
               <Counter endValue={100} />
               <p className="page-info">schools have finished the program</p>
