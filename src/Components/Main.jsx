@@ -7,17 +7,17 @@ export const Main = () => {
             </nav>
             <div className="main">
                 <h1 className="title">Welcome to the <br />
-                    <span class="orange">T</span>
-                    <span class="orange">w</span>
-                    <span class="green">i</span>
-                    <span class="green">n</span>
-                    <span class="red">s</span>
-                    <span class="red">c</span>
-                    <span class="blue">h</span>
-                    <span class="blue">o</span>
-                    <span class="blue">o</span>
-                    <span class="orange">l</span>
-                    <span class="orange">s</span>
+                    <span className="orange">T</span>
+                    <span className="orange">w</span>
+                    <span className="green">i</span>
+                    <span className="green">n</span>
+                    <span className="red">s</span>
+                    <span className="red">c</span>
+                    <span className="blue">h</span>
+                    <span className="blue">o</span>
+                    <span className="blue">o</span>
+                    <span className="orange">l</span>
+                    <span className="orange">s</span>
                 </h1>
                 <p className="page-title">TOGETHER WITH SCHOOLS ALL OVER THE WORLD</p>
                 <button className="join-us-main">

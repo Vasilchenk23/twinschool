@@ -105,6 +105,31 @@ a {
   cursor: pointer;
 }
 
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .header-items {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+  }
+
+  .header-items p {
+      padding: 10px 0;
+      width: 100%;
+      text-align: center;
+  }
+
+  .join-us {
+      width: 100%;
+      text-align: center;
+  }
+}
+
 /* Component Main */
 
 .content {
@@ -183,6 +208,38 @@ a {
   font-size: 22px;
 }
 
+@media (max-width: 768px) {
+  .content {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .sidebar, .sidebar2 {
+      display: none;
+  }
+
+  .main {
+      width: 100%;
+  }
+
+  .title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+  }
+
+  .page-title {
+      font-size: 1rem;
+      margin-bottom: 10px;
+  }
+
+  .join-us-main {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+  }
+}
+
 /* About */
 
 .h2-about{
@@ -219,6 +276,15 @@ a {
 
 .presentation-file {
   border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+.presentation {
+  width: 500px;
+}
+.page-about{
+  width: 550px;
+}
 }
 
 /* History */
@@ -332,6 +398,19 @@ a {
   margin: 100px auto;
 }
 
+@media (max-width: 768px) {
+.blocks{
+  display: block;
+}
+.image-container {
+  margin-top: 30px;
+}
+.page {
+  width: 350px;
+}
+}
+  
+
 /* Program */
 
 .block-program{
@@ -418,6 +497,19 @@ a {
 
 .time-program{
   color: #1C3664;
+}
+
+@media (max-width: 768px) {
+.program {
+  display: block;
+}  
+.item-block {
+  width: 72.5%;
+}
+.item-block2 {
+  width: 72.5%;
+  margin-top: 30px;
+}
 }
 
 /* Gallery  component*/
@@ -533,6 +625,28 @@ a {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .title-fqa {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+  }
+
+  .block-fqa {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .fqa-header h3 {
+      font-size: 1rem;
+  }
+
+  .fqa-button {
+      width: 15px;
+      height: 15px;
+  }
+}
+
+
 /* Team component  */
 
 .team {
@@ -572,6 +686,26 @@ a {
   margin: 20px auto;
   text-align: center;
   font-size: 25px;
+}
+
+@media (max-width: 767px) {
+  .main-team {
+      padding: 20px 10px;
+  }
+
+  .team {
+      display: block;
+  }
+
+  .team-card {
+      margin: 20px auto;
+      width: 80%;
+  }
+
+  .team-card img {
+      width: 100%;
+      height: auto;
+  }
 }
 
 /* Supported component */
@@ -768,4 +902,35 @@ textarea {
 .logo-footer{
   cursor: pointer;
 }
+
+
+
+.input-container {
+  position: relative;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus + .placeholder,
+input:not(:placeholder-shown) + .placeholder {
+  transform: translateY(-20px);
+  font-size: 12px;
+  color: #FFA800;
+}
+
+.placeholder {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transition: all 0.2s ease;
+  pointer-events: none;
+  font-size: 16px;
+  color: #aaa;
+}
+
 

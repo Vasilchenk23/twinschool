@@ -31,11 +31,11 @@ export const History = () => {
           Currently, in the online program:
         </p>
         <div className="blocks">
-        <div class="image-container">
+        <div className="image-container">
           <img src="./img/photo-decor.png" alt=""/>
-          <div class="block1">
+          <div className="block1">
             <Counter endValue={650} />
-            <p class="page-info">schools have joined the program</p>
+            <p className="page-info">schools have joined the program</p>
           </div>
         </div>
         <div className="image-container">

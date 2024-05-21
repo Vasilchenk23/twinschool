@@ -13,7 +13,7 @@ export const Team = () => {
                             <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22.9212 0.574707H0.186157V17.552H22.9212V0.574707Z" fill="#006A44"/>
                                 <path d="M22.9212 11.9675H0.186157V17.6258H22.9212V11.9675Z" fill="#C1272D"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.186157 0.574707H22.9216V6.23306H0.186157V0.574707Z" fill="#FDB913"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0.186157 0.574707H22.9216V6.23306H0.186157V0.574707Z" fill="#FDB913"/>
                             </svg>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ export const Team = () => {
                             <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22.9212 0.574707H0.186157V17.552H22.9212V0.574707Z" fill="#006A44"/>
                                 <path d="M22.9212 11.9675H0.186157V17.6258H22.9212V11.9675Z" fill="#C1272D"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.186157 0.574707H22.9216V6.23306H0.186157V0.574707Z" fill="#FDB913"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0.186157 0.574707H22.9216V6.23306H0.186157V0.574707Z" fill="#FDB913"/>
                             </svg>
                         </div>
                     </div>
@@ -35,8 +35,8 @@ export const Team = () => {
                             <h3 className="name-person">Valeriia Shybika</h3>
                             <p className="job-title">project coordinator</p>
                             <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.287476 0.074707H23.0229V17.1263H0.287476V0.074707Z" fill="#FFD700"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.287476 0.074707H23.0229V8.60048H0.287476V0.074707Z" fill="#0057B8"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0.287476 0.074707H23.0229V17.1263H0.287476V0.074707Z" fill="#FFD700"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0.287476 0.074707H23.0229V8.60048H0.287476V0.074707Z" fill="#0057B8"/>
                             </svg>
                         </div>
                     </div>
@@ -46,8 +46,8 @@ export const Team = () => {
                             <h3 className="name-person">Nazar Halych</h3>
                             <p className="job-title">project coordinator</p>
                             <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.287476 0.074707H23.0229V17.1263H0.287476V0.074707Z" fill="#FFD700"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.287476 0.074707H23.0229V8.60048H0.287476V0.074707Z" fill="#0057B8"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0.287476 0.074707H23.0229V17.1263H0.287476V0.074707Z" fill="#FFD700"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0.287476 0.074707H23.0229V8.60048H0.287476V0.074707Z" fill="#0057B8"/>
                             </svg>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ export const Team = () => {
                             <h3 className="name-person">Karthikeyan Kannan</h3>
                             <p className="job-title">CBO</p>
                             <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_745_146)">
+                                <g clipPath="url(#clip0_745_146)">
                                 <path d="M0.027832 0.948242H22.7632V6.63209H0.027832V0.948242Z" fill="#FF9933"/>
                                 <path d="M0.027832 6.63232H22.7632V12.3162H0.027832V6.63232Z" fill="white"/>
                                 <path d="M0.027832 12.3159H22.7632V17.9998H0.027832V12.3159Z" fill="#128807"/>
@@ -128,7 +128,7 @@ export const Team = () => {
                             <h3 className="name-person">Zarzis Al Mahmud</h3>
                             <p className="job-title">facilitator South Asia</p>
                             <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_745_372)">
+                                <g clipPath="url(#clip0_745_372)">
                                 <path d="M0.129028 0.948242H22.8644V17.9998H0.129028V0.948242Z" fill="#006A4E"/>
                                 <path d="M10.0758 15.1577C13.2149 15.1577 15.7597 12.613 15.7597 9.47389C15.7597 6.33479 13.2149 3.79004 10.0758 3.79004C6.93672 3.79004 4.39197 6.33479 4.39197 9.47389C4.39197 12.613 6.93672 15.1577 10.0758 15.1577Z" fill="#F42A41"/>
                                 </g>
@@ -146,7 +146,7 @@ export const Team = () => {
                             <h3 className="name-person">Ismot Jubair Jami</h3>
                             <p className="job-title">project development</p>
                             <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_745_372)">
+                                <g clipPath="url(#clip0_745_372)">
                                 <path d="M0.129028 0.948242H22.8644V17.9998H0.129028V0.948242Z" fill="#006A4E"/>
                                 <path d="M10.0758 15.1577C13.2149 15.1577 15.7597 12.613 15.7597 9.47389C15.7597 6.33479 13.2149 3.79004 10.0758 3.79004C6.93672 3.79004 4.39197 6.33479 4.39197 9.47389C4.39197 12.613 6.93672 15.1577 10.0758 15.1577Z" fill="#F42A41"/>
                                 </g>
@@ -164,9 +164,9 @@ export const Team = () => {
                             <h3 className="name-person">David Arturo Cortes Lopez</h3>
                             <p className="job-title">facilitator South America</p>
                             <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331665 0.448242H23.0671V17.4998H0.331665V0.448242Z" fill="#FFE800"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331665 8.97412H23.0671V17.4999H0.331665V8.97412Z" fill="#00148E"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331665 13.2368H23.0671V17.4997H0.331665V13.2368Z" fill="#DA0010"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0.331665 0.448242H23.0671V17.4998H0.331665V0.448242Z" fill="#FFE800"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0.331665 8.97412H23.0671V17.4999H0.331665V8.97412Z" fill="#00148E"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M0.331665 13.2368H23.0671V17.4997H0.331665V13.2368Z" fill="#DA0010"/>
                             </svg>
                         </div>
                     </div>
@@ -176,7 +176,7 @@ export const Team = () => {
                             <h3 className="name-person">Majdi Chebil</h3>
                             <p className="job-title">facilitator Middle East and Africa</p>
                             <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_745_269)">
+                                <g clipPath="url(#clip0_745_269)">
                                 <path d="M0.129028 0.257812H22.8644V17.3094H0.129028V0.257812Z" fill="#E70013"/>
                                 <path d="M11.4967 4.49222C10.3647 4.48751 9.2772 4.93268 8.47342 5.7298C7.66964 6.52691 7.21544 7.61068 7.21073 8.74268C7.20602 9.87468 7.65119 10.9622 8.4483 11.766C9.24542 12.5697 10.3292 13.0239 11.4612 13.0287C12.5932 13.0334 13.6807 12.5882 14.4845 11.7911C15.2883 10.994 15.7425 9.91021 15.7472 8.7782C15.7519 7.6462 15.3067 6.55869 14.5096 5.75492C13.7125 4.95114 12.6287 4.49694 11.4967 4.49222ZM14.0544 10.6663C13.6544 11.2074 13.0939 11.6085 12.4526 11.8125C11.8114 12.0165 11.1221 12.0129 10.483 11.8024C9.84384 11.5918 9.28746 11.1849 8.89305 10.6397C8.49864 10.0945 8.28632 9.43869 8.28632 8.76577C8.28632 8.09285 8.49864 7.43709 8.89305 6.89187C9.28746 6.34665 9.84384 5.93977 10.483 5.72919C11.1221 5.5186 11.8114 5.51505 12.4526 5.71903C13.0939 5.923 13.6544 6.32411 14.0544 6.86523C13.687 6.5343 13.2315 6.31697 12.7431 6.23957C12.2547 6.16216 11.7543 6.22799 11.3026 6.4291C10.8508 6.6302 10.467 6.95794 10.1977 7.37266C9.92834 7.78737 9.785 8.27127 9.785 8.76577C9.785 9.26027 9.92834 9.74417 10.1977 10.1589C10.467 10.5736 10.8508 10.9013 11.3026 11.1024C11.7543 11.3035 12.2547 11.3694 12.7431 11.292C13.2315 11.2146 13.687 10.9972 14.0544 10.6663ZM13.8875 9.89544L12.5589 9.4656L11.7383 10.5953V9.19916L10.4097 8.76577L11.7383 8.33238V6.93628L12.5589 8.06595L13.8875 7.63611L13.0669 8.76577L13.8875 9.89544Z" fill="white"/>
                                 </g>

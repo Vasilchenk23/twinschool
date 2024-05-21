@@ -61,7 +61,7 @@ export const Contact = () => {
                     <h4>Follow Us On:</h4>
                         <a href="https://www.facebook.com/twinschools/" target="_blank" rel="noopener noreferrer">
                             <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1.16431" y="0.76709" width="31.2656" height="31.2656" rx="15.6328" stroke="white" stroke-width="0.734375"/>
+                                <rect x="1.16431" y="0.76709" width="31.2656" height="31.2656" rx="15.6328" stroke="white" strokeWidth="0.734375"/>
                                 <path d="M20.6259 17.3751L21.0827 14.3677H18.2256V12.417C18.2256 11.594 18.624 10.7914 19.9036 10.7914H21.2034V8.23103C21.2034 8.23103 20.0243 8.02783 18.8976 8.02783C16.5436 8.02783 15.0065 9.46853 15.0065 12.0756V14.3677H12.3909V17.3751H15.0065V24.6456C15.5316 24.7289 16.0688 24.7716 16.616 24.7716C17.1633 24.7716 17.7005 24.7289 18.2256 24.6456V17.3751H20.6259Z" fill="white"/>
                             </svg>
                         </a>
@@ -77,7 +77,7 @@ export const Contact = () => {
                             <div className="user-info">
                                 <div className="block-first-name">
                                     <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_813_99)">
+                                        <g clipPath="url(#clip0_813_99)">
                                         <path d="M14.2617 14.8645C16.8241 14.8645 18.8995 12.789 18.8995 10.2267C18.8995 7.66428 16.8241 5.58887 14.2617 5.58887C11.6993 5.58887 9.62388 7.66428 9.62388 10.2267C9.62388 12.789 11.6993 14.8645 14.2617 14.8645ZM14.2617 17.1834C11.1659 17.1834 4.98608 18.737 4.98608 21.8212V24.1401H23.5373V21.8212C23.5373 18.737 17.3574 17.1834 14.2617 17.1834Z" fill="#FFA800"/>
                                         </g>
                                         <defs>
@@ -86,20 +86,23 @@ export const Contact = () => {
                                         </clipPath>
                                         </defs>
                                     </svg>
-                                    <input 
-                                        placeholder="First Name" 
-                                        type="text" 
-                                        className="first-name" 
-                                        autoComplete="name"
-                                        name='name'
-                                        value={formData.name}
-                                        onChange={handleChange}
-                                        required
-                                    />
+                                    <div className="input-container">
+                                        <input 
+                                            placeholder=" " 
+                                            type="text" 
+                                            className="first-name" 
+                                            autoComplete="name"
+                                            name='name'
+                                            value={formData.name}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                        <label className="placeholder">First Name</label>
+                                    </div>
                                 </div>
                                 <div className="block-last-name">
                                     <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_813_99)">
+                                        <g clipPath="url(#clip0_813_99)">
                                         <path d="M14.2617 14.8645C16.8241 14.8645 18.8995 12.789 18.8995 10.2267C18.8995 7.66428 16.8241 5.58887 14.2617 5.58887C11.6993 5.58887 9.62388 7.66428 9.62388 10.2267C9.62388 12.789 11.6993 14.8645 14.2617 14.8645ZM14.2617 17.1834C11.1659 17.1834 4.98608 18.737 4.98608 21.8212V24.1401H23.5373V21.8212C23.5373 18.737 17.3574 17.1834 14.2617 17.1834Z" fill="#FFA800"/>
                                         </g>
                                         <defs>
@@ -108,15 +111,18 @@ export const Contact = () => {
                                         </clipPath>
                                         </defs>
                                     </svg>
-                                    <input 
-                                        placeholder="Last Name" 
-                                        type="text"  
-                                        className="surname"
-                                        name='surname'
-                                        value={formData.surname}
-                                        onChange={handleChange}
-                                        required
-                                    />
+                                    <div className="input-container">
+                                        <input 
+                                            placeholder=" " 
+                                            type="text"  
+                                            className="surname"
+                                            name='surname'
+                                            value={formData.surname}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                        <label className="placeholder">Last Name</label>
+                                    </div>
                                 </div>
                             </div>
                             <div className="block-email">
@@ -124,15 +130,18 @@ export const Contact = () => {
                                 <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M21.5373 0.982422H2.98613C1.71074 0.982422 0.678831 2.02593 0.678831 3.30132L0.667236 17.2147C0.667236 18.4901 1.71074 19.5336 2.98613 19.5336H21.5373C22.8127 19.5336 23.8562 18.4901 23.8562 17.2147V3.30132C23.8562 2.02593 22.8127 0.982422 21.5373 0.982422ZM21.5373 5.62022L12.2617 11.4175L2.98613 5.62022V3.30132L12.2617 9.09857L21.5373 3.30132V5.62022Z" fill="#FFA800"/>
                                 </svg>
-                                <input 
-                                    type="email" 
-                                    className="email"  
-                                    placeholder="Email"
-                                    name='email'
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                    required
-                                />
+                                    <div className="input-container">
+                                        <input 
+                                            type="email" 
+                                            className="email"  
+                                            placeholder=" "
+                                            name='email'
+                                            value={formData.email}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                        <label className="placeholder">Email</label>
+                                    </div>
                                 </div>
                             </div>
                             <br />
