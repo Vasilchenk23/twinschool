@@ -625,6 +625,13 @@ header {
     width: 300%;
     margin: 0px 0px 0px 150px;
   }
+  .slider {
+    width: 1000px;
+    margin: 20px 0px 0px 170px;
+  }
+  .buttons {
+    margin: 40px 0px 40px 570px;
+  }
 }
 /* FQA Component */
 
@@ -761,18 +768,51 @@ header {
       padding: 20px 10px;
   }
 
+  .title-team {
+    font-size: 3rem;
+    width: 500px;
+    margin: 20px 0px 0px 480px;
+  }
+
+  .page-team {
+    font-size: 3rem;
+    margin: 30px 0px 0px 400px;
+    width: 700px;
+  }
+
   .team {
       display: block;
   }
 
   .team-card {
-      margin: 20px auto;
-      width: 80%;
+      margin: 100px auto;
+      width: 200%;
+      font-size: 3rem;
+      display: block
+  }
+
+  .name-person {
+    width: 900px;
+    text-align: center;
+    margin: 5px 0px 70px 300px;
   }
 
   .team-card img {
       width: 100%;
       height: auto;
+      margin: 0px 0px 0px 350px;
+  }
+  .info-card svg {
+    display: none;
+  }
+  .job-title {
+    width: 700px;
+    text-align: center;
+
+    margin: 0px 0px 0px 350px;
+  }
+  .info-card img {
+    display: none;
   }
 }
 
