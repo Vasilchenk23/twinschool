@@ -49,91 +49,90 @@ code {
   src: url('./fonts/SigmarOne-Regular.ttf');
 }
 
-header{
+header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1C3664;
+  color: white;
 }
 
-.header-items{
-  display: flex;
-  justify-content: space-around;
-  width: 600px;
+.logo-block img {
+  height: 50px;
 }
 
-.header-items-about:hover, 
-.header-items-history:hover,
-.header-items-program:hover,
-.header-items-team:hover,
-.header-items-faqs:hover,
-.header-items-partners:hover,
-.header-items-contact:hover,
-.header-items-gallery:hover {
-  color: #FFA800;
+.header-items {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.header-items p {
+  margin: 0 15px;
   cursor: pointer;
+  font-size: 18px;
+}
+
+.header-items p:hover {
+  color: #FFA800;
   text-decoration: underline;
 }
 
-.join-us{
-  width: 183px;
-  height: 66px;
+.join-us {
   background-color: #FFA800;
   color: #040406;
   border-radius: 40px;
-  text-align: center;
   border: none;
+  padding: 15px 25px;
   font-family: Montserrat-Bold;
-  font-size: 24px;
+  font-size: 18px;
   cursor: pointer;
 }
 
-.join-us:active{
-  border: 3px solid #FFA800;
-  background-color: #FFFFFF;
-  cursor: pointer;
+.join-us a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.join-us:hover{
-  border: 3px solid #FFA800;
+.join-us:hover {
   background-color: #FFFFFF;
-  cursor: pointer;
   color: #1C3664;
+  border: 3px solid #FFA800;
 }
-
-
-a {
-  all: unset;
-  cursor: pointer;
-}
-
 
 @media (max-width: 768px) {
   header {
-      flex-direction: column;
-      align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    ;
+    display: block;
+    width: 700px;
+    margin: 0px 0px 0px 300px;
   }
 
   .header-items {
     flex-direction: column;
-    gap: 10px;
-    width: 230%;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center; 
-    align-items: center;     
-    height: 100vh;
-    font-size: 25px;
-}
+    align-items: center;
+    margin: 20px 0;
+  }
 
   .header-items p {
-      padding: 10px 0;
-      width: 100%;
-      text-align: center;   
+    margin: 10px auto;
+    text-align: center;
+    font-size: 36px;
+    ;
   }
 
   .join-us {
-      display: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
   }
 }
+
 
 /* Component Main */
 
@@ -217,7 +216,13 @@ a {
   .content {
       flex-direction: column;
       align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 10px;
+      ;
+      width: 300px;
+      margin: 0px 0px 0px 300px;
   }
 
   .sidebar, .sidebar2 {
@@ -289,19 +294,25 @@ a {
   width: 270%;
   display: block;
   margin: 20px auto;
-  border: 1px solid red
+  ;
+  width: 700px;
+  margin: 0px 0px 0px 300px;
 }
 .h2-about {
   display: block;
   width: 270%;
-  border: 1px solid red;
+  ;
   margin: 20px auto;
+  width: 700px;
+  margin: 0px 0px 0px 300px;
 }
 .page-about{
   width: 270%;
   display: block;
   margin: 0 auto;
-  border: 1px solid red;
+  ;
+  width: 700px;
+  margin: 0px 0px 0px 300px;
 }
 }
 
@@ -423,12 +434,16 @@ a {
 .image-container {
   margin-top: 30px;
   width: 270%;
+  ;
+  margin: 0px 0px 0px 250px;
 }
 .h2-history {
   width: 270%;
+  margin: 0px 0px 0px 250px;
 }
 .page {
-  width: 270%
+  width: 270%;
+  margin: 0px 0px 0px 250px;
 }
 .decor {
  margin: 0px 0px 0px 235px;
@@ -536,18 +551,20 @@ a {
 }  
 .h2-program {
   width: 340%;
+  margin: 0px 0px 0px 75px;
 }
 .item-block {
   width: 134%;
-  margin-left: 290px;
+  margin-left: 400px;
 }
 .item-block2 {
   width: 134%;
   margin-top: 30px;
-  margin-left: 290px;
+  margin-left: 400px;
 }
 .page-program {
   width: 300%;
+  margin: 0px 0px 0px 150px;
 }
 }
 
@@ -602,9 +619,11 @@ a {
 @media (max-width: 768px) {
   .title-gallery {
     width: 300%;
+    margin: 0px 0px 0px 150px;
   }
   .page-gallery {
     width: 300%;
+    margin: 0px 0px 0px 150px;
   }
 }
 /* FQA Component */
@@ -673,17 +692,20 @@ a {
 
 @media (max-width: 768px) {
   .title-fqa {
-      font-size: 1.5rem;
-      margin-bottom: 10px;
+      font-size: 2.5rem;
+      width: 600px;
+      margin: 0px 0px 0px 400px;
   }
 
   .block-fqa {
-      width: 100%;
+      width: 300%;
       padding: 10px;
+      font-size: 30px;
+      margin: 40px 0px 0px 150px;
   }
 
   .fqa-header h3 {
-      font-size: 1rem;
+      font-size: 1.5rem;
   }
 
   .fqa-button {
@@ -792,7 +814,16 @@ a {
 
 @media (max-width: 767px) {
   .support {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 0px 0px 250px;
+  }
+  .title-support {
+    font-size: 2.5rem;
+    ;
+    width: 300px;
+    margin: 0px 0px 40px 550px;
   }
 }
 
@@ -986,8 +1017,16 @@ input:not(:placeholder-shown) + .placeholder {
 }
 
 @media (max-width: 767px) {
-  .twinschool-form {
-    display: block;
+  .form {
+    margin: 300px 200px;
+  }
+  .contact {
+    widows: 300px;
+    margin: 30px 0px 0px 550px;
+    font-size: 2.5rem;
+  }
+  .info-form {
+    font-size: 2rem;
   }
 }
 
