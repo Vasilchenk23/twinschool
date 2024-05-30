@@ -9,6 +9,17 @@ body {
   color: #FFFFFF;
 }
 
+a {
+  text-decoration: none; /* Убирает подчеркивание */
+  color: inherit; /* Делает цвет текста таким же, как у родительского элемента */
+  border: none; /* Убирает границы */
+  outline: none; /* Убирает обводку при фокусе */
+  background: none; /* Убирает фоновый цвет */
+  font: inherit; /* Делает шрифт таким же, как у родительского элемента */
+  cursor: inherit; /* Наследует тип курсора от родительского элемента */
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -89,6 +100,8 @@ header {
   font-family: Montserrat-Bold;
   font-size: 18px;
   cursor: pointer;
+  width: 130px;
+  height: 55px;
 }
 
 .join-us a {
