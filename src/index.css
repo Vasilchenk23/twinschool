@@ -293,10 +293,13 @@ header {
 .presentation {
   width: 270%;
   display: block;
-  margin: 20px auto;
-  ;
+  margin: 60px auto;
   width: 700px;
-  margin: 0px 0px 0px 300px;
+  margin: 70px 0px 0px 300px;
+}
+.block-about{
+  border-bottom: none;
+  border-top:none ;
 }
 .h2-about {
   display: block;
@@ -313,6 +316,11 @@ header {
   ;
   width: 700px;
   margin: 0px 0px 0px 300px;
+}
+.block-about {
+  width: 330%;
+  margin: 0px 50px;
+  padding: 0px 0px 70px 0px;
 }
 }
 
@@ -431,6 +439,9 @@ header {
 .blocks{
   display: block;
 }
+.block-history {
+  border: none;
+}
 .image-container {
   margin-top: 30px;
   width: 270%;
@@ -443,7 +454,7 @@ header {
 }
 .page {
   width: 270%;
-  margin: 0px 0px 0px 250px;
+  margin: 30px 0px 0px 250px;
 }
 .decor {
  margin: 0px 0px 0px 235px;
@@ -549,22 +560,25 @@ header {
 .program {
   display: block;
 }  
+.block-program {
+  border: none;
+}
 .h2-program {
-  width: 340%;
+  width: 400%;
   margin: 0px 0px 0px 75px;
 }
 .item-block {
   width: 134%;
-  margin-left: 400px;
+  margin-left: 500px;
 }
 .item-block2 {
   width: 134%;
   margin-top: 30px;
-  margin-left: 400px;
+  margin-left: 500px;
 }
 .page-program {
-  width: 300%;
-  margin: 0px 0px 0px 150px;
+  width: 350%;
+  margin: 30px 0px 0px 150px;
 }
 }
 
@@ -618,12 +632,15 @@ header {
 
 @media (max-width: 768px) {
   .title-gallery {
-    width: 300%;
+    width: 350%;
     margin: 0px 0px 0px 150px;
   }
   .page-gallery {
-    width: 300%;
-    margin: 0px 0px 0px 150px;
+    width: 350%;
+    margin: 30px 0px 60px 150px;
+  }
+  .block-gallery {
+    border: none;
   }
   .slider {
     width: 1000px;
@@ -705,12 +722,14 @@ header {
   }
 
   .block-fqa {
-      width: 300%;
+      width: 330%;
       padding: 10px;
       font-size: 30px;
       margin: 40px 0px 0px 150px;
   }
-
+  .block-main {
+    border: none;
+  }
   .fqa-header h3 {
       font-size: 1.5rem;
   }
@@ -859,9 +878,11 @@ header {
       align-items: center;
       margin: 0px 0px 0px 250px;
   }
+  .support-block {
+    border: none;
+  }
   .title-support {
     font-size: 2.5rem;
-    ;
     width: 300px;
     margin: 0px 0px 40px 550px;
   }
@@ -1059,6 +1080,9 @@ input:not(:placeholder-shown) + .placeholder {
 @media (max-width: 767px) {
   .form {
     margin: 300px 200px;
+  }
+  .block-contact {
+    border: none;
   }
   .contact {
     widows: 300px;
