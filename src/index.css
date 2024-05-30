@@ -331,7 +331,7 @@ header {
 
 /* History */
 
-.team {
+.team-history {
   display: block;
   margin: 0 auto;
 }
@@ -444,6 +444,10 @@ header {
 .blocks{
   display: block;
 }
+.team-history {
+  display: block;
+  margin-left: 320px;
+}
 .block-history {
   border: none;
 }
@@ -464,9 +468,11 @@ header {
 }
 .page-history {
   width: 400px;
+  margin-left: 430px;
 }
 .page-facebook {
   margin-top: 70px;
+  margin-left: 480px;
 }
 }
   
@@ -567,21 +573,21 @@ header {
   border: none;
 }
 .h2-program {
-  width: 400%;
+  width: 380%;
   margin: 0px 0px 0px 75px;
 }
 .item-block {
   width: 134%;
-  margin-left: 500px;
+  margin-left: 450px;
 }
 .item-block2 {
   width: 134%;
   margin-top: 30px;
-  margin-left: 500px;
+  margin-left: 450px;
 }
 .page-program {
   width: 350%;
-  margin: 30px 0px 0px 150px;
+  margin: 30px 0px 0px 100px;
 }
 }
 
@@ -1049,8 +1055,6 @@ textarea {
 .logo-footer{
   cursor: pointer;
 }
-
-
 
 .input-container {
   position: relative;

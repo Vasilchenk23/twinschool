@@ -53,7 +53,7 @@ export const History = () => {
             </div>
           </div>
         </div>
-        <img className="team" src="./img/image-4.png" alt="team" />
+        <img className="team-history" src="./img/image-4.png" alt="team" />
         <p className="page-history">
           And we continue to establish relations with other countries!
         </p>
