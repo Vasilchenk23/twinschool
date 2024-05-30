@@ -296,6 +296,11 @@ header {
   margin: 60px auto;
   width: 700px;
   margin: 70px 0px 0px 300px;
+  border-radius: 20px;
+}
+.presentation-file {
+  width: 700px;
+  height: 600px;
 }
 .block-about{
   border-bottom: none;
@@ -443,10 +448,8 @@ header {
   border: none;
 }
 .image-container {
-  margin-top: 30px;
-  width: 270%;
-  ;
-  margin: 0px 0px 0px 250px;
+  width: 270%;;
+  margin: 70px 0px 0px 250px;
 }
 .h2-history {
   width: 270%;
