@@ -1082,7 +1082,7 @@ input:not(:placeholder-shown) + .placeholder {
 
 @media (max-width: 767px) {
   .form {
-    margin: 300px 200px;
+    margin: 300px 350px;
   }
   .block-contact {
     border: none;
@@ -1094,6 +1094,21 @@ input:not(:placeholder-shown) + .placeholder {
   }
   .info-form {
     font-size: 2rem;
+  }
+  .twinschool-form {
+    display: block;
+  }
+  .info-form {
+    font-size: 3rem;
+    width: 1200px;
+    margin-left: 50px;
+  }
+  .block-submit {
+    margin-left: 200px;
+    width: 200px;
+  }
+  .footer-logo {
+    width: 1350px;
   }
 }
 
