@@ -91,11 +91,11 @@ export const Contact = () => {
                                             placeholder=" " 
                                             type="text" 
                                             className="first-name" 
-                                            autoComplete="name"
                                             name='name'
                                             value={formData.name}
                                             onChange={handleChange}
                                             required
+                                            autoComplete="off"
                                         />
                                         <label className="placeholder">First Name</label>
                                     </div>
@@ -120,6 +120,7 @@ export const Contact = () => {
                                             value={formData.surname}
                                             onChange={handleChange}
                                             required
+                                            autComplete="off"
                                         />
                                         <label className="placeholder">Last Name</label>
                                     </div>
@@ -139,6 +140,7 @@ export const Contact = () => {
                                             value={formData.email}
                                             onChange={handleChange}
                                             required
+                                            autoComplete="off"
                                         />
                                         <label className="placeholder">Email</label>
                                     </div>
@@ -151,7 +153,7 @@ export const Contact = () => {
                                 rows="10" 
                                 className="describe"
                                 name="question"
-                                autoComplete="question"
+                                autoComplete="off"
                                 value={formData.question}
                                 onChange={handleChange}
                                 required

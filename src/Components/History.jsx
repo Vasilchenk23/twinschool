@@ -14,7 +14,7 @@ export const History = () => {
             return prevCount;
           }
         });
-      }, 10);
+      }, 0.1);
 
       return () => clearInterval(interval);
     }, [endValue]);
