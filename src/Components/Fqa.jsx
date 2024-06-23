@@ -52,7 +52,7 @@ export const Fqa = () => {
                             <h3>{faq.question}</h3>
                             <img src="./img/fqa-button.png" className="fqa-button" alt="" />
                         </div>
-                        {expandedIndex === index && <p>{faq.answer}</p>}
+                        {expandedIndex === index && <p style={{color:'#1C3664'}}>{faq.answer}</p>}
                     </div>
                 ))}
             </div>

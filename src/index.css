@@ -3,8 +3,8 @@ body {
   font-family: Montserrat-Medium;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1C3664;
-  color: #FFFFFF;
+  color: #1C3664;
+  background-color: #FEFAF6;
 }
 
 a {
@@ -29,18 +29,18 @@ code {
 
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #FEFAF6; 
 }
 
 
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #1C3664; 
   border-radius: 5px;
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #1C3664; 
 }
 
 @font-face {
@@ -68,8 +68,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #1C3664;
-  color: white;
 }
 
 .logo-block img {
@@ -295,7 +293,7 @@ header {
 .presentation{
   width: 1100px;
   height: 600px;
-  border: 10px solid #FFFFFF;
+  border: 10px solid #FFA800;
   display: flex;
   margin: 100px auto;
   border-radius: 30px;
@@ -439,7 +437,7 @@ header {
 }
 
 .link-facebook{
-  color: #FFCA28;
+  color: #1C3664;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -541,11 +539,13 @@ header {
 .item-block{
   background-color: #FFFFFF;
   border-radius: 20px;
+  border: 1px solid #1C3664;
 }
 
 .item-block2{
   background-color: #FFFFFF;
   border-radius: 20px;
+  border: 1px solid #1C3664;
 }
 
 .button-program{
@@ -581,7 +581,7 @@ header {
   color: #1C3664;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 .program {
   display: block;
 }  
@@ -605,7 +605,7 @@ header {
   width: 350%;
   margin: 30px 0px 0px 100px;
 }
-}
+} */
 
 /* Gallery  component*/
 .slider {
@@ -681,7 +681,7 @@ header {
   font-size: 40px;
   text-align: center;
   margin: 30px auto;
-  color: #fff;
+  color: #1C3664;
 }
 
 .block-fqa {
@@ -691,14 +691,14 @@ header {
   padding: 20px;
   width: 860px;
   border-radius: 20px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #1C3664;
   margin: 20px auto;
   text-align: left;
   cursor: pointer;
   transition: height 0.3s ease; 
   overflow: hidden; 
-  background-color: #1C3664;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #1C3664;
   position: relative;
 }
 
@@ -886,7 +886,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px; 
-  border: 1px solid #FFA800;
+  border: 1px solid #1C3664;
 }
 
 .support-block {
@@ -948,7 +948,7 @@ header {
 .block-first-name {
    width: 275px;
    height: 65px;
-   border: 1px solid #FFFFFF;
+   border: 1px solid #1C3664;
    border-radius: 12px;
    display: flex;
    justify-content: space-around;
@@ -958,7 +958,7 @@ header {
 .block-last-name {
   width: 275px;
   height: 65px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #1C3664;
   border-radius: 12px;
   display: flex;
   justify-content: space-around;
@@ -969,7 +969,7 @@ header {
   width: 577.41px;
   margin-top: 20px;
   height: 65px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #1C3664;
   border-radius: 12px;
   display: flex;
   justify-content: start;
@@ -992,39 +992,39 @@ input:focus {
 
 input {
   border: none;
-  background-color: #1C3664;
-  color: #FFA800;
+  background-color: #FEFAF6;
+  color: #1C3664;
   outline: none;
   box-shadow: none;
 }
 
 input:active {
   border: none;
-  background-color: #1C3664;
-  color: #FFA800;
+  background-color: #FEFAF6;
+  color: #1C3664;
   outline: none;
   box-shadow: none;
 }
 
 input:focus {
   border: none;
-  background-color: #1C3664;
-  color: #FFA800;
+  background-color: #FEFAF6;
+  color: #1C3664;
   outline: none;
   box-shadow: none;
 }
 
 ::placeholder {
-  color: #f1f1f1;
+  color: #1C3664;
 }
 
 .describe {
   width: 552px;
   height: 148px;
-  background-color: #1C3664;
-  border: 1px solid #FFFFFF;
+  background-color: #FEFAF6;
+  border: 1px solid #1C3664;
   border-radius: 12px;
-  color: #FFA800;
+  color: #1C3664;
   padding-left: 23px;
   padding-top: 20px;
 }
@@ -1033,18 +1033,18 @@ input:focus {
   outline: none; 
   border-color: transparent; 
   box-shadow: none;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #1C3664;
 }
 
 .submit {
   width: 134.65px;
   height: 61.38px;
-  border: 1px solid #FFA800;
   border-radius: 13.91px;
   background-color: #1C3664;
   color: #FFFFFF;
   font-size: 20.87px;
   font-family: Montserrat-Bold;
+  border: none;
 }
 
 .submit:hover {
@@ -1093,7 +1093,8 @@ input:focus + .placeholder,
 input:not(:placeholder-shown) + .placeholder {
   transform: translateY(-20px);
   font-size: 12px;
-  color: #FFA800;
+  font-weight: bold;
+  color: #1C3664;
 }
 
 .placeholder {
@@ -1103,7 +1104,7 @@ input:not(:placeholder-shown) + .placeholder {
   transition: all 0.2s ease;
   pointer-events: none;
   font-size: 16px;
-  color: #aaa;
+  color: #1C3664;
 }
 
 /* @media (max-width: 767px) {
