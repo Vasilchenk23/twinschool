@@ -23,6 +23,7 @@ export const About = () => {
             <div className="presentation">
                 <embed className="presentation-file" src="./Twinschools-worldwide-schools.pdf" type="application/pdf"  width="1100px" height="auto" toolbar="0" />
             </div>
+            <p className="see-more-page">See more about Twinschools here</p>
         </div>
         </>
     );
