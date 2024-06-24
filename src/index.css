@@ -262,7 +262,7 @@ header {
 }
 
 .page-about{
-  width: 806px;
+  max-width: 806px;
   height: 184px;
   text-align: center;
   margin: 0 auto;
@@ -301,7 +301,7 @@ header {
 
 .page{
   text-align: center;
-  width: 877px;
+  max-width: 877px;
   height: 60px;
   font-size: 25px;
   font-family: Montserrat-Regular;
@@ -364,7 +364,7 @@ header {
 
 .page-history{
   text-align: center;
-  width: 746px;
+  max-width: 746px;
   height: 30px;
   font-size: 25px;
   font-family: Montserrat-Regular;
@@ -425,7 +425,7 @@ header {
 .page-program {
   margin: 0 auto;
   text-align: center;
-  width: 829px;
+  max-width: 829px;
   height: 60px;
   text-align: center;
   font-family: Montserrat-Regular;
@@ -618,6 +618,12 @@ header {
   border-bottom: 1px solid #FFFFFF;
   width: 80%;
   margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+  .block-fqa {
+    width: 330px;
+  }
 }
 
 
@@ -909,36 +915,8 @@ input:not(:placeholder-shown) + .placeholder {
   color: #1C3664;
 }
 
-/* @media (max-width: 767px) {
-  .form {
-    margin: 300px 350px;
-  }
-  .block-contact {
-    border: none;
-  }
-  .contact {
-    widows: 300px;
-    margin: 30px 0px 0px 550px;
-    font-size: 2.5rem;
-  }
-  .info-form {
-    font-size: 2rem;
-  }
+@media (max-width:1280px) {
   .twinschool-form {
     display: block;
   }
-  .info-form {
-    font-size: 3rem;
-    width: 1200px;
-    margin-left: 50px;
-  }
-  .block-submit {
-    margin-left: 200px;
-    width: 200px;
-  }
-  .footer-logo {
-    width: 1350px;
-  }
 }
-
- */
