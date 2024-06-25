@@ -138,7 +138,6 @@ header {
   }
   .logo-block {
     width: 500px;
-    border: 1px solid red;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -169,6 +168,9 @@ header {
 
   .sidebar2 img {
     display: none;
+  }
+  .main {
+    margin-left: 270px;
   }
 }
 
@@ -261,8 +263,16 @@ header {
   }
   .see-more-page {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-left: 270px;
+    font-size: 20px;
     text-decoration: underline;
+  }
+  .h2-about {
+    margin-left: 270px;
+  }
+  .page-about {
+    margin-left: 270px;
   }
 }
 
@@ -283,8 +293,6 @@ header {
 }
 
 .block-about{
-  border-top: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
   width: 80%;
   margin: 100px auto;
 }
@@ -413,10 +421,18 @@ header {
 @media (max-width: 1280px) {
   .blocks {
     display: block;
-    text-align: center;
+    width: 300px;
+    margin-left: 200px;
   }
   .team-history {
     display: none
+  }
+  .block-history {
+    margin-left: 200px;
+  }
+  .page-facebook {
+    margin-top: 100px;
+    font-size: 25px;
   }
 }
 
@@ -518,6 +534,12 @@ header {
   .item-block {
     margin-bottom: 20px;
   }
+  .block-program {
+    margin-left: 200px;
+  }
+  .program {
+    margin-left: 150px;
+  }
 }
 
 /* Gallery  component*/
@@ -566,6 +588,12 @@ header {
   border-bottom: 1px solid #FFFFFF;
   width: 80%;
   margin: 0px auto;
+}
+
+@media (max-width: 1280px) {
+  .block-gallery {
+    margin-left: 220px;
+  }
 }
 
 /* FQA Component */
@@ -636,8 +664,13 @@ header {
   .block-fqa {
     width: 330px;
   }
+  .title-fqa {
+    margin-left: 270px;
+  }
+  .block-main {
+    margin-left: 225px;
+  }
 }
-
 
 /* Team component  */
 
@@ -689,6 +722,9 @@ header {
     width: 500px;
     margin: 50px auto;
   }
+  .main-team {
+    margin-left: 270px;
+  }
 }
 
 /* Supported component */
@@ -730,6 +766,11 @@ header {
 @media (max-width:1280px) {
   .support {
     display: block;
+    padding-left: 100px;
+    width: 50%;
+  }
+  .support-block {
+    margin-left: 270px;
   }
 }
 
@@ -927,8 +968,29 @@ input:not(:placeholder-shown) + .placeholder {
   color: #1C3664;
 }
 
+.page-contact-question {
+  color: #FFA800;
+}
+
 @media (max-width:1280px) {
   .twinschool-form {
     display: block;
+  }
+  .block-contact {
+    margin-left: 270px;
+  }
+  .describe {
+    margin-left: -100px;
+  }
+  .page-contact-question {
+    font-size: 25px;
+  }
+  .block-submit {
+    display: flex;
+    justify-content: start;
+  }
+  .footer-logo {
+    margin-top: 100px;
+    margin-left: 270px;
   }
 }
