@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 115px;
   }
 }
 
@@ -319,7 +320,6 @@ header {
 .h2-history{
   text-align: center;
   font-size: 40px;
-  border: 1px solid red;
 }
 
 .page{
@@ -668,7 +668,7 @@ header {
     width: 330px;
   }
   .title-fqa {
-    margin-left: 270px;
+    margin-left: 280px;
   }
   .block-main {
     margin-left: 225px;
@@ -726,14 +726,16 @@ header {
     margin: 50px auto;
   }
   .main-team {
-    margin-left: 270px;
+    margin-left: 320px;
+    max-width: 600px;
   }
 }
 
 /* Supported component */
 
 .title-support {
-  margin: 50px auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -773,7 +775,7 @@ header {
     width: 50%;
   }
   .support-block {
-    margin-left: 270px;
+    margin-left: 240px;
   }
 }
 
