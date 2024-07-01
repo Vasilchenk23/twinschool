@@ -267,9 +267,11 @@ header {
     margin-left: 270px;
     font-size: 20px;
     text-decoration: underline;
+    text-align: center;
   }
   .h2-about {
-    margin-left: 270px;
+    text-align: center;
+    margin: 0px 0px 0px 200px;
   }
   .page-about {
     margin-left: 270px;
@@ -317,6 +319,7 @@ header {
 .h2-history{
   text-align: center;
   font-size: 40px;
+  border: 1px solid red;
 }
 
 .page{
@@ -422,7 +425,7 @@ header {
   .blocks {
     display: block;
     width: 300px;
-    margin-left: 200px;
+    margin-left: 190px;
   }
   .team-history {
     display: none
