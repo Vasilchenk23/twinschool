@@ -264,7 +264,7 @@ header {
   }
   .see-more-page {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 270px;
     font-size: 20px;
     text-decoration: underline;
@@ -272,12 +272,18 @@ header {
   }
   .h2-about {
     text-align: center;
-    margin: 0px 0px 0px 200px;
+    margin: 0px 0px 0px 270px;
   }
-  .page-about {
-    margin-left: 270px;
+   .block-about .page-about {
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 220px;
+    text-align: center;
+    margin-bottom: 100px;
   }
 }
+
 
 .h2-about{
   text-align: center;
@@ -296,7 +302,7 @@ header {
 }
 
 .block-about{
-  width: 80%;
+  width: 90%;
   margin: 100px auto;
 }
 
@@ -391,7 +397,7 @@ header {
   height: 30px;
   font-size: 25px;
   font-family: Montserrat-Regular;
-  margin: 40px auto 0px;
+  margin: 40px 0px 0px 50px;
 }
 
 .page-facebook{
@@ -400,7 +406,8 @@ header {
   height: 30px;
   font-size: 25px;
   font-family: Montserrat-Regular;
-  margin: 6px auto 40px;
+  margin: 6px 0px 0px 60px;
+  width: 600px;
 }
 
 .link-facebook{
@@ -425,17 +432,27 @@ header {
   .blocks {
     display: block;
     width: 300px;
-    margin-left: 190px;
+    margin-left: 220px;
+  }
+  .image-container {
+    margin-top: 20px;
   }
   .team-history {
     display: none
   }
   .block-history {
     margin-left: 200px;
+
   }
   .page-facebook {
     margin-top: 100px;
     font-size: 25px;
+  }
+  .h2-history {
+    margin: 0px 0px 0px 70px;
+  }
+  .page {
+    margin: 30px 0px 0px 80px;
   }
 }
 
@@ -533,6 +550,7 @@ header {
   .program {
     display: block;
     width: 420px;
+    margin-left: 160px;
   }
   .item-block {
     margin-bottom: 20px;
@@ -540,8 +558,8 @@ header {
   .block-program {
     margin-left: 200px;
   }
-  .program {
-    margin-left: 150px;
+  .page-program {
+    margin: 30px 0px 0px 40px;
   }
 }
 
