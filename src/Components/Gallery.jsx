@@ -25,7 +25,7 @@ export const Gallery = () => {
                 </div>
                 <div className="buttons">
                 <svg style={{ cursor:"pointer"}} onClick={nextSlide} width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_953_1483)">
+                    <g clipPath="url(#clip0_953_1483)">
                     <path d="M44.5 24C44.5 12.96 35.54 4 24.5 4C13.46 4 4.5 12.96 4.5 24C4.5 35.04 13.46 44 24.5 44C35.54 44 44.5 35.04 44.5 24ZM20.5 24L28.5 16L28.5 32L20.5 24Z" fill="#1C3664"/>
                     </g>
                     <defs>
@@ -35,7 +35,7 @@ export const Gallery = () => {
                     </defs>
                 </svg>
                 <svg style={{ cursor:"pointer"}} onClick={prevSlide} width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_953_1484)">
+                    <g clipPath="url(#clip0_953_1484)">
                     <path d="M4.5 24C4.5 35.04 13.46 44 24.5 44C35.54 44 44.5 35.04 44.5 24C44.5 12.96 35.54 4 24.5 4C13.46 4 4.5 12.96 4.5 24ZM28.5 24L20.5 32V16L28.5 24Z" fill="#1C3664"/>
                     </g>
                     <defs>

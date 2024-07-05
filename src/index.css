@@ -146,12 +146,52 @@ header {
     text-align: center;
   }
   .logo-block img {
-    order: 2;
+    order: 1;
   }
 
   .logo-block svg {
-      order: 1;
+      order: 2;
   }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-menu-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
+
+.close-menu {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-nav p {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 @media (min-width: 1290px) {
@@ -253,6 +293,9 @@ header {
 
 /* About */
 
+.see-more-page {
+  display: none;
+}
 @media (max-width: 1280px) {
   .presentation-file {
     display: none;
@@ -393,7 +436,7 @@ header {
 
 .page-history{
   text-align: center;
-  max-width: 746px;
+  max-width: 1046px;
   height: 30px;
   font-size: 25px;
   font-family: Montserrat-Regular;
@@ -402,12 +445,11 @@ header {
 
 .page-facebook{
   text-align: center;
-  width: 288px;
   height: 30px;
   font-size: 25px;
   font-family: Montserrat-Regular;
   margin: 6px 0px 0px 60px;
-  width: 600px;
+  max-width: 1100px;
 }
 
 .link-facebook{
@@ -683,10 +725,12 @@ header {
 
 @media (max-width: 1280px) {
   .block-fqa {
-    width: 330px;
+    width: 530px;
+    font-size: 25px;
   }
   .title-fqa {
     margin-left: 280px;
+    font-size: 50px;
   }
   .block-main {
     margin-left: 225px;
@@ -788,9 +832,8 @@ header {
 
 @media (max-width:1280px) {
   .support {
-    display: block;
-    padding-left: 100px;
-    width: 50%;
+    text-align: center;
+    width: 80%;
   }
   .support-block {
     margin-left: 240px;
@@ -1003,10 +1046,18 @@ input:not(:placeholder-shown) + .placeholder {
     margin-left: 270px;
   }
   .describe {
-    margin-left: -100px;
+   margin: 0px 10px 0px 0px;
+  }
+  .info-form {
+    display: none;
   }
   .page-contact-question {
     font-size: 25px;
+    width: 100%;
+    margin: 50px 0px 50px 70px;
+  }
+  .submit {
+    margin-left: 230px;
   }
   .block-submit {
     display: flex;
@@ -1014,6 +1065,15 @@ input:not(:placeholder-shown) + .placeholder {
   }
   .footer-logo {
     margin-top: 100px;
-    margin-left: 270px;
+    margin-left: 310px;
+  }
+  .contact {
+    margin-top: 100px;
+    margin-right: 40px;
+    font-size: 30px;
+  }
+  .form {
+    width: 60%;
+    margin-left: 40px;
   }
 }
