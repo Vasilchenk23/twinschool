@@ -17,7 +17,7 @@ export const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://back-twinschool-production.up.railway.app/api/send-email', formData);
+            await axios.post('https://back-twinschool-production-e766.up.railway.app/api/send-email', formData);
             alert('Електронний лист успішно відправлено! 😊');
         } catch (error) {
             alert('Не вдалося відправити лист. Будь ласка, спробуйте знову. 😞');
