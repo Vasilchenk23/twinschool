@@ -35,41 +35,47 @@ export const Contact = () => {
             <h2 className="contact">Contact</h2>
             <div className="twinschool-form">
                 <div className="info-form">
-                    <h2 className="title-contact">
-                    <span className="orange">T</span>
-                    <span className="orange">w</span>
-                    <span className="green">i</span>
-                    <span className="green">n</span>
-                    <span className="red">s</span>
-                    <span className="red">c</span>
-                    <span className="blue">h</span>
-                    <span className="blue">o</span>
-                    <span className="blue">o</span>
-                    <span className="orange">l</span>
-                    <span className="orange">s</span>
-                    </h2>
-                    <p>Make Peace one Friendship at a Time</p>
-                    <br />
-                    <p>VŠĮ Twinschools</p>
-                    <p>tel. +370 673 756 25</p>
-                    <p>Company code 306362824,<br />J. Savickio st. 4-7, <br />LT-01108 <br />Vilnius, Lithuania</p>
-                    <br />
-                    <p>Email Us: </p>
-                    <a style={{cursor:'pointer'}} href="https://mail.google.com/mail/u/0/#inbox?compose=new">
-                        <p className="email-company">ukraine@twinschools.org</p>
-                    </a>
-                    <h4>Follow Us On:</h4>
-                        <a style={{cursor:'pointer'}} href="https://www.facebook.com/twinschools/" target="_blank" rel="noopener noreferrer">
-                        <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="1.16431" y="0.923828" width="31.2656" height="31.2656" rx="15.6328" stroke="#1C3664" strokeWidth="0.734375"/>
-                            <path d="M20.6259 17.5318L21.0827 14.5244H18.2256V12.5737C18.2256 11.7507 18.624 10.9481 19.9036 10.9481H21.2034V8.38777C21.2034 8.38777 20.0243 8.18457 18.8976 8.18457C16.5436 8.18457 15.0065 9.62526 15.0065 12.2323V14.5244H12.3909V17.5318H15.0065V24.8023C15.5316 24.8856 16.0688 24.9283 16.616 24.9283C17.1633 24.9283 17.7005 24.8856 18.2256 24.8023V17.5318H20.6259Z" fill="#1C3664"/>
-                        </svg>
-                        </a>
-                    <br />
-                    <br />
-                    <div className="plane">
-                        <img src="./img/arrow.png" alt="" />
+                    <div className="div2">
+                        <h2 className="title-contact">
+                        <span className="orange">T</span>
+                        <span className="orange">w</span>
+                        <span className="green">i</span>
+                        <span className="green">n</span>
+                        <span className="red">s</span>
+                        <span className="red">c</span>
+                        <span className="blue">h</span>
+                        <span className="blue">o</span>
+                        <span className="blue">o</span>
+                        <span className="orange">l</span>
+                        <span className="orange">s</span>
+                        </h2>
+                        <p>Make Peace one Friendship at a Time</p>
+                        <br />
                     </div>
+                    <div className="div">
+                        <p>VŠĮ Twinschools</p>
+                        <p>tel. +370 673 756 25</p>
+                        <p>Company code 306362824,<br />J. Savickio st. 4-7, <br />LT-01108 <br />Vilnius, Lithuania</p>
+                        <br />
+                    </div>
+                       <div className="email-block">
+                        <p>Email Us: </p>
+                            <a style={{cursor:'pointer'}} href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+                                <p className="email-company">ukraine@twinschools.org</p>
+                            </a>
+                            <h4>Follow Us On:</h4>
+                                <a style={{cursor:'pointer'}} href="https://www.facebook.com/twinschools/" target="_blank" rel="noopener noreferrer">
+                                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.16431" y="0.923828" width="31.2656" height="31.2656" rx="15.6328" stroke="#1C3664" strokeWidth="0.734375"/>
+                                    <path d="M20.6259 17.5318L21.0827 14.5244H18.2256V12.5737C18.2256 11.7507 18.624 10.9481 19.9036 10.9481H21.2034V8.38777C21.2034 8.38777 20.0243 8.18457 18.8976 8.18457C16.5436 8.18457 15.0065 9.62526 15.0065 12.2323V14.5244H12.3909V17.5318H15.0065V24.8023C15.5316 24.8856 16.0688 24.9283 16.616 24.9283C17.1633 24.9283 17.7005 24.8856 18.2256 24.8023V17.5318H20.6259Z" fill="#1C3664"/>
+                                </svg>
+                                </a>
+                            <br />
+                            <br />
+                            <div className="plane">
+                                <img src="./img/arrow.png" alt="" />
+                            </div>
+                       </div>
                 </div>
                 <div className="form">
                     <form onSubmit={handleSubmit}>

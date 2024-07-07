@@ -7,7 +7,7 @@ body {
   background-color: #FEFAF6;
 }
 
-@media (max-width:1280px) {
+/* @media (max-width:1280px) {
   body {
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body {
     text-align: center;
     margin-left: 115px;
   }
-}
+} */
 
 a {
   text-decoration: none;
@@ -138,18 +138,31 @@ header {
     display: none;
   }
   .logo-block {
-    width: 500px;
+    width: 100%;
+    padding: 20px 20px 0px 20px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin: 0px 0px 0px 300px;
+    margin: 0px auto;
     text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    background-color: #FEFAF6;
+    z-index: 100;
   }
+  
+
   .logo-block img {
     order: 1;
+    width: 13%;
+    height: 13%;
   }
 
   .logo-block svg {
+    width: 13%;
+    height: 13%;
       order: 2;
   }
 }
@@ -189,8 +202,8 @@ header {
 }
 
 .mobile-nav p {
-  margin: 1rem 0;
-  font-size: 1.5rem;
+  margin: 2rem 0;
+  font-size: 3rem;
   cursor: pointer;
 }
 
@@ -209,9 +222,6 @@ header {
 
   .sidebar2 img {
     display: none;
-  }
-  .main {
-    margin-left: 270px;
   }
 }
 
@@ -308,20 +318,19 @@ header {
   .see-more-page {
     text-align: center;
     margin-top: 20px;
-    margin-left: 270px;
+    /* margin-left: 270px; */
     font-size: 20px;
     text-decoration: underline;
     text-align: center;
   }
   .h2-about {
     text-align: center;
-    margin: 0px 0px 0px 270px;
   }
    .block-about .page-about {
     width: 600px;
     height: 400px;
-    margin-top: 30px;
-    margin-left: 220px;
+    margin-top: 100px;
+    /* margin-left: 260px; */
     text-align: center;
     margin-bottom: 100px;
   }
@@ -474,7 +483,7 @@ header {
   .blocks {
     display: block;
     width: 300px;
-    margin-left: 220px;
+    /* margin-left: 250px; */
   }
   .image-container {
     margin-top: 20px;
@@ -483,19 +492,19 @@ header {
     display: none
   }
   .block-history {
-    margin-left: 200px;
+    /* margin-left: 200px; */
 
   }
   .page-facebook {
     margin-top: 100px;
     font-size: 25px;
   }
-  .h2-history {
+  /* .h2-history {
     margin: 0px 0px 0px 70px;
   }
   .page {
     margin: 30px 0px 0px 80px;
-  }
+  } */
 }
 
 /* Program */
@@ -592,16 +601,19 @@ header {
   .program {
     display: block;
     width: 420px;
-    margin-left: 160px;
+    margin: 0 auto;
   }
   .item-block {
     margin-bottom: 20px;
   }
   .block-program {
-    margin-left: 200px;
+    margin: 0 auto;
   }
   .page-program {
-    margin: 30px 0px 0px 40px;
+    margin: 50px auto;
+  }
+  .h2-program {
+    margin: 0 auto;
   }
 }
 
@@ -654,8 +666,18 @@ header {
 }
 
 @media (max-width: 1280px) {
-  .block-gallery {
+  /* .block-gallery {
     margin-left: 220px;
+  }
+  .title-gallery {
+    margin-left: 40px;
+  }
+  .page-gallery {
+    margin-left: 40px;
+  } */
+  .slider {
+    width: 106%;
+    height:200px;
   }
 }
 
@@ -729,11 +751,11 @@ header {
     font-size: 26px;
   }
   .title-fqa {
-    margin-left: 280px;
+    /* margin-left: 280px; */
     font-size: 50px;
   }
   .block-main {
-    margin-left: 225px;
+    /* margin-left: 240px; */
   }
 }
 
@@ -783,13 +805,35 @@ header {
     display: block;
   }
 
+  .imteam {
+    width: 44%;
+    height: 44%;
+  }
+
   .team-card {
     width: 500px;
     margin: 50px auto;
   }
   .main-team {
-    margin-left: 320px;
+    margin: 0 auto;
     max-width: 600px;
+  }
+  .info-card {
+    width: 350px;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+  }
+  .name-person {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  .job-title {
+    align-items: center;
+    text-align: center;
+    width: 100%;
   }
 }
 
@@ -834,9 +878,6 @@ header {
   .support {
     text-align: center;
     width: 80%;
-  }
-  .support-block {
-    margin-left: 240px;
   }
 }
 
@@ -1038,42 +1079,59 @@ input:not(:placeholder-shown) + .placeholder {
   color: #FFA800;
 }
 
+
 @media (max-width:1280px) {
   .twinschool-form {
     display: block;
   }
-  .block-contact {
-    margin-left: 270px;
-  }
   .describe {
-   margin: 0px 10px 0px 0px;
-  }
-  .info-form {
-    display: none;
+   margin: 0 auto;
   }
   .page-contact-question {
     font-size: 25px;
     width: 100%;
-    margin: 50px 0px 50px 70px;
-  }
-  .submit {
-    margin-left: 230px;
+    margin: 0 auto;
   }
   .block-submit {
     display: flex;
-    justify-content: start;
+    justify-content: center;
   }
   .footer-logo {
     margin-top: 100px;
-    margin-left: 310px;
   }
   .contact {
-    margin-top: 100px;
-    margin-right: 40px;
+    margin: 100px auto;
     font-size: 30px;
   }
   .form {
-    width: 60%;
-    margin-left: 40px;
+    margin: 0 auto;
   }
+
+
+
+
+  .twinschool-form {
+    display: flex;
+    flex-direction: column; 
+}
+
+.div2 {
+  display: none;
+}
+
+
+.info-form {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.form {
+    order: 1;
+}
+
 }

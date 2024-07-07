@@ -6,7 +6,7 @@ export const Team = () => {
                 <p className="page-team">We are international and welcoming team</p>
                 <div className="team">
                     <div className="team-card">
-                        <img src="./img/team/Ignas-Brazauskas.png" alt="" />
+                        <img src="./img/team/Ignas-Brazauskas.png" alt=""  className="imteam"/>
                         <div className="info-card">
                             <h3 className="name-person">Ignas Brazauskas</h3>
                             <p className="job-title">founder &  CEO</p>
@@ -18,7 +18,7 @@ export const Team = () => {
                         </div>
                     </div>
                     <div className="team-card">
-                        <img src="./img/team/Liudmila-Mikhailovskaya.png" alt="" />
+                        <img src="./img/team/Liudmila-Mikhailovskaya.png" alt="" className="imteam"/>
                         <div className="info-card">
                             <h3 className="name-person">Liudmila Mikhailovskaya</h3>
                             <p className="job-title">СOO</p>
@@ -30,7 +30,7 @@ export const Team = () => {
                         </div>
                     </div>
                     <div className="team-card">
-                        <img src="./img/team/Valeriia-Shybika.png" alt="" />
+                        <img src="./img/team/Valeriia-Shybika.png" alt="" className="imteam" />
                         <div className="info-card">
                             <h3 className="name-person">Valeriia Shybika</h3>
                             <p className="job-title">project coordinator</p>
@@ -41,7 +41,7 @@ export const Team = () => {
                         </div>
                     </div>
                     <div className="team-card">
-                        <img src="./img/team/Nazar-Halych.png" alt="" />
+                        <img src="./img/team/Nazar-Halych.png" alt="" className="imteam"/>
                         <div className="info-card">
                             <h3 className="name-person">Nazar Halych</h3>
                             <p className="job-title">project coordinator</p>
@@ -52,7 +52,7 @@ export const Team = () => {
                         </div>
                     </div>
                     <div className="team-card">
-                        <img src="./img/team/Karthikeyan-Kannan.png" alt="" />
+                        <img src="./img/team/Karthikeyan-Kannan.png" alt="" className="imteam"/>
                         <div className="info-card">
                             <h3 className="name-person">Karthikeyan Kannan</h3>
                             <p className="job-title">CBO</p>
@@ -123,7 +123,7 @@ export const Team = () => {
                         </div>
                     </div>
                     <div className="team-card">
-                        <img src="./img/team/Zarzis-Al-Mahmud.png" alt="" />
+                        <img src="./img/team/Zarzis-Al-Mahmud.png" alt="" className="imteam"/>
                         <div className="info-card">
                             <h3 className="name-person">Zarzis Al Mahmud</h3>
                             <p className="job-title">facilitator South Asia</p>
@@ -141,7 +141,7 @@ export const Team = () => {
                         </div>
                     </div>
                     <div className="team-card">
-                        <img src="./img/team/Ismot-Jubair-Jami.png" alt="" />
+                        <img src="./img/team/Ismot-Jubair-Jami.png" alt="" className="imteam"/>
                         <div className="info-card">
                             <h3 className="name-person">Ismot Jubair Jami</h3>
                             <p className="job-title">project development</p>
@@ -159,7 +159,7 @@ export const Team = () => {
                         </div>
                     </div>
                     <div className="team-card">
-                        <img src="./img/team/David-Arturo-Cortes-Lopez.png" alt="" />
+                        <img src="./img/team/David-Arturo-Cortes-Lopez.png" alt="" className="imteam"/>
                         <div className="info-card">
                             <h3 className="name-person">David Arturo Cortes Lopez</h3>
                             <p className="job-title">facilitator South America</p>
@@ -171,7 +171,7 @@ export const Team = () => {
                         </div>
                     </div>
                     <div className="team-card">
-                        <img src="./img/team/Majdi-Chebil.png" alt="" />
+                        <img src="./img/team/Majdi-Chebil.png" alt="" className="imteam"/>
                         <div className="info-card">
                             <h3 className="name-person">Majdi Chebil</h3>
                             <p className="job-title">facilitator Middle East and Africa</p>
@@ -189,7 +189,7 @@ export const Team = () => {
                         </div>
                     </div>
                     <div className="team-card">
-                        <img src="./img/team/Sushil-Phuyal.png" alt="" />
+                        <img src="./img/team/Sushil-Phuyal.png" alt="" className="imteam"/>
                         <div className="info-card">
                             <h3 className="name-person">Sushil Phuyal</h3>
                             <p className="job-title">facilitator Nepal</p>
