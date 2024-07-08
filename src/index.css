@@ -90,9 +90,10 @@ header {
 
 .header-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
+  text-align: end;
   flex-grow: 1;
-  margin: 0 20px;
+  padding-right: 50px;
 }
 
 .header-items p {
