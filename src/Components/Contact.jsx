@@ -79,7 +79,7 @@ export const Contact = () => {
                 </div>
                 <div className="form">
                     <form onSubmit={handleSubmit}>
-                            <p className='page-contact-question'>ANY QUESTIONS LEFT? <br />WRITE US!</p>
+                            <p className='page-contact-question'>ANY QUESTIONS LEFT? WRITE US!</p>
                             <div className="user-info">
                                 <div className="block-first-name">
                                     <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -133,10 +133,8 @@ export const Contact = () => {
                                 </div>
                             </div>
                             <div className="block-email">
+                            <svg  xmlns="http://www.w3.org/2000/svg" style={{margin:'0px 0px 0px 10px'}}  width="28"  height="28"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
                                 <div className="block-email-info">
-                                    <svg width="29" height="29" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M21.5373 0.13916H2.98613C1.71074 0.13916 0.678831 1.18266 0.678831 2.45806L0.667236 16.3714C0.667236 17.6468 1.71074 18.6903 2.98613 18.6903H21.5373C22.8127 18.6903 23.8562 17.6468 23.8562 16.3714V2.45806C23.8562 1.18266 22.8127 0.13916 21.5373 0.13916ZM21.5373 4.77696L12.2617 10.5742L2.98613 4.77696V2.45806L12.2617 8.2553L21.5373 2.45806V4.77696Z" fill="#1C3664"/>
-                                    </svg>
                                     <div className="input-container">
                                         <input 
                                             type="email" 

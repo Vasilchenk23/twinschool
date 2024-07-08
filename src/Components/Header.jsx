@@ -10,7 +10,7 @@ export const Header = () => {
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
         section.scrollIntoView({ behavior: 'smooth' });
-        setMenuOpen(false); // Close the menu after clicking
+        setMenuOpen(false); 
     };
 
     return (
@@ -41,8 +41,11 @@ export const Header = () => {
             </header>
             {menuOpen && (
                 <div className="mobile-menu">
+                    <svg className="close-menu" onClick={toggleMenu} xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M18 6L6 18M6 6l12 12" />
+                    </svg>
                     <nav className="mobile-nav">
-                        <p onClick={() => scrollToSection('main')}>Homepage</p>
                         <p onClick={() => scrollToSection('about')}>About</p>
                         <p onClick={() => scrollToSection('history')}>History</p>
                         <p onClick={() => scrollToSection('program')}>Program</p>

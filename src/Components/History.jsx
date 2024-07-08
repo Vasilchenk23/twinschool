@@ -34,7 +34,7 @@ export const History = () => {
         <div className="image-container">
           <img className="decor" src="./img/photo-decor.png" alt=""/>
           <div className="block1">
-            <Counter endValue={650} />
+            <Counter endValue={650}/>
             <p className="page-info">schools have joined the program</p>
           </div>
         </div>
