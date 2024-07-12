@@ -58,7 +58,7 @@ export const History = () => {
           And we continue to establish relations with other countries!
         </p>
         <p className="page-facebook">
-          See more{" "}
+          See more on {" "}
           <a className="link-facebook" href="https://www.facebook.com/twinschools/">
             Facebook
           </a>

@@ -524,7 +524,7 @@ header {
   }
   .page-facebook {
     margin-top: 130px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 900;
   }
   .h2-history {
@@ -641,14 +641,14 @@ header {
     margin: 0 auto;
   }
   .page-program {
-    margin: 150px auto;
+    margin: 100px auto;
     font-size: 35px;
     text-align: center;
     font-weight: 500;
   }
   .h2-program {
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 120px;
     font-size: 45px;
   }
   .button-program {
@@ -869,8 +869,7 @@ header {
     max-width: 850px;
   }
   .info-card {
-    width: 350px;
-    align-items: start;
+    width: 396px;
     text-align: start;
     font-size: 25px;
   }
@@ -882,12 +881,15 @@ header {
     align-items: start;
     text-align: start;
     width: 100%;
-    margin-bottom: 70px;
+    height: 30px;
+    font-size: 28px;
   }
   .job-title {
     align-items: start;
     text-align: start;
     width: 100%;
+    font-size: 24px;
+    height: 30px;
   }
   .page-team {
     font-size: 27px;
@@ -1077,6 +1079,7 @@ input:focus {
   font-size: 20.87px;
   font-family: Montserrat-Bold;
   border: none;
+  cursor: pointer;
 }
 
 .submit:hover {
@@ -1171,20 +1174,14 @@ input:not(:placeholder-shown) + .placeholder {
     margin: 0 auto;
   }
 
-
-
-
   .twinschool-form {
     display: flex;
     flex-direction: column; 
 }
 
-.div2 {
-  display: none;
-}
 
 
-.info-form {
+.bbb {
     order: 2;
     display: flex;
     flex-direction: row;
@@ -1198,5 +1195,69 @@ input:not(:placeholder-shown) + .placeholder {
 .form {
     order: 1;
 }
-
+.plane img{
+  display: none;
 }
+.user-info {
+  display: block;
+  margin-top: 20px;
+  width: 97.5%;
+}
+.block-last-name {
+  margin-top: 20px;
+  width: 100%;
+  justify-content: start;
+  padding-left: 10px;
+}
+.block-first-name {
+  margin-top: 20px;
+  width: 100%;
+  justify-content: start;
+  padding-left: 10px;
+}
+.div2 {
+  text-align: center;
+  font-size: 35px;
+}
+}
+
+.social-icon:hover {
+  stroke: #FFA800;
+  fill: #FFA800;
+}
+
+.social-svg:hover {
+  stroke: #FFA800;
+  fill: #FFA800;
+}
+
+.icon-path {
+  stroke: #1C3664;
+  fill: #1C3664;
+}
+
+.form {
+display: block;
+}
+
+@media (max-width: 1280px) {
+  .div3 {
+    display: none;
+  }
+  .form {
+    display: none;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .div3 {
+    display: none;
+  }
+
+  .form2 {
+    display: none;
+  }
+  
+}
+
