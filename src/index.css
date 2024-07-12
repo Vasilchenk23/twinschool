@@ -5,6 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #1C3664;
   background-color: #FEFAF6;
+  overflow-x: hidden;
 }
 
 /* @media (max-width:1280px) {
@@ -139,8 +140,8 @@ header {
     display: none;
   }
   .logo-block {
-    width: 90%;
-    padding: 20px 20px 0px 20px;
+    width: 93%;
+    padding: 20px 30px 0px 40px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -191,7 +192,7 @@ header {
 
 .close-menu {
   background: none;
-  border: none;
+  border: 1px solid red;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -339,6 +340,7 @@ header {
     text-align: center;
     font-size: 35px;
     margin-bottom: 200px;
+    font-weight: 800;
   }
 }
 
@@ -504,10 +506,26 @@ header {
     display: none
   }
   .block1 {
+    font-weight: 900;
+    margin-top: -20px;
+  }
+  .block2 {
+    font-weight: 900;
+    margin-top: -20px;
+  }
+  .block3 {
+    font-weight: 900;
+    margin-top: -20px;
+  }
+  .page-info {
+    margin-top: -20px;
+    font-size: 20px;
+    width: 150px;
   }
   .page-facebook {
-    margin-top: 100px;
-    font-size: 25px;
+    margin-top: 130px;
+    font-size: 35px;
+    font-weight: 900;
   }
   .h2-history {
     font-size: 45px;
@@ -610,30 +628,42 @@ header {
 @media (max-width: 1280px) {
   .program {
     display: block;
-    width: 420px;
+    width: 570px;
     margin: 0 auto;
   }
+  .program img {
+    width: 100%;
+  }
   .item-block {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
   .block-program {
     margin: 0 auto;
   }
   .page-program {
-    margin: 100px auto;
-    font-size: 30px;
+    margin: 150px auto;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
   }
   .h2-program {
     margin: 0 auto;
     margin-top: 300px;
     font-size: 45px;
   }
+  .button-program {
+    margin-top: -30px;
+    margin-right: -70px;
+    width: 200px;
+    font-size: 23px;
+    height: 70px;
+  }
 }
 
 /* Gallery  component*/
 .slider {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .slide {
@@ -657,7 +687,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 200px;
+  width: 400px;
 }
 
 .title-gallery {
@@ -685,6 +715,16 @@ header {
   }
   .page-gallery {
     font-size: 30px;
+  }
+  .buttons svg {
+    width: 100px;
+    height: 100px;
+  }
+  .slider {
+    width: 230%;
+    margin-top: 100px;
+    height: 450px;
+    margin-left: -460px;
   }
 }
 
@@ -748,18 +788,21 @@ header {
 
 .block-main {
   border-bottom: 1px solid #FFFFFF;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 @media (max-width: 1280px) {
   .block-fqa {
     width: 730px;
-    font-size: 25px;
-    margin: 40px 0px 0px -20px;
+    font-size: 24px;
   }
   .title-fqa {
-    font-size: 45px;
+    font-size: 20px;
+  }
+  .fqa-button {
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -807,6 +850,7 @@ header {
 @media (max-width: 1280px) {
   .team {
     display: block;
+    width: 100%;
   }
 
   .imteam {
@@ -815,28 +859,38 @@ header {
   }
 
   .team-card {
-    width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     margin: 50px auto;
   }
   .main-team {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 850px;
   }
   .info-card {
     width: 350px;
-    align-items: center;
-    text-align: center;
+    align-items: start;
+    text-align: start;
     font-size: 25px;
   }
+  .info-card svg {
+    width: 70px;
+    height: 70px;
+  }
   .name-person {
-    align-items: center;
-    text-align: center;
+    align-items: start;
+    text-align: start;
     width: 100%;
     margin-bottom: 70px;
   }
   .job-title {
-    align-items: center;
-    text-align: center;
+    align-items: start;
+    text-align: start;
+    width: 100%;
+  }
+  .page-team {
+    font-size: 27px;
     width: 100%;
   }
 }
@@ -881,10 +935,13 @@ header {
 @media (max-width:1280px) {
   .support {
     text-align: center;
-    width: 80%;
+    width: 87.1%;
   }
   .title-support {
     font-size: 45px;
+  }
+  .support-block {
+    width: 100%;
   }
 }
 

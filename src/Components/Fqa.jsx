@@ -49,7 +49,7 @@ export const Fqa = () => {
                         onClick={() => toggleHeight(index)}
                     >
                         <div className="fqa-header">
-                            <h3>{faq.question}</h3>
+                            <h3 style={{color: '#1C3664', maxWidth: '600px', wordWrap: 'break-word', whiteSpace: 'normal'}}>{faq.question}</h3>
                             <img src="./img/fqa-button.png" className="fqa-button" alt="" />
                         </div>
                         {expandedIndex === index && <p style={{color:'#1C3664'}}>{faq.answer}</p>}

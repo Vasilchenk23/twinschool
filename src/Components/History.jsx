@@ -19,7 +19,7 @@ export const History = () => {
       return () => clearInterval(interval);
     }, [endValue]);
 
-    return <h3 style={{ fontSize:"21.5px", fontFamily:"Montserrat-Bold"}}>{count}+</h3>;
+    return <h3 style={{ fontSize:"28.5px", fontWeight:'bold', fontFamily:"Montserrat-Bold"}}>{count}+</h3>;
   };
 
   return (
