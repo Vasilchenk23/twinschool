@@ -18,9 +18,9 @@ export const Contact = () => {
         e.preventDefault();
         try {
             await axios.post('https://back-twinschool-production-e766.up.railway.app/api/send-email', formData);
-            alert('Електронний лист успішно відправлено! 😊');
+            alert('Email sent successfully! 😊');
         } catch (error) {
-            alert('Не вдалося відправити лист. Будь ласка, спробуйте знову. 😞');
+            alert('Failed to send email. Please try again. 😞');
         }
     };
 
