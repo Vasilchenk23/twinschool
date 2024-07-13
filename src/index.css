@@ -1225,6 +1225,13 @@ input:not(:placeholder-shown) + .placeholder {
 .block-email{
   width: 99%;
 } 
+.email {
+  width: 150%;
+}
+}
+
+.email {
+  width: 150%;
 }
 
 .social-icon:hover {
