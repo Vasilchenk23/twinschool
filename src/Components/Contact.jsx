@@ -18,9 +18,9 @@ export const Contact = () => {
         e.preventDefault();
         try {
             await axios.post('https://back-production-0fcf.up.railway.app/api/send-email', formData);
-            alert('Email sent successfully! 😊');
+            alert('Email sent successfully!😊');
         } catch (error) {
-            alert('Failed to send email. Please try again. 😞');
+            alert('Failed to send email. Please try again.😞');
         }
     };
 
