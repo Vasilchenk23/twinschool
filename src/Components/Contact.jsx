@@ -17,7 +17,7 @@ export const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://back-twinschool-production-e766.up.railway.app/api/send-email', formData);
+            await axios.post('back-production-0fcf.up.railway.app/api/send-email', formData);
             alert('Email sent successfully! 😊');
         } catch (error) {
             alert('Failed to send email. Please try again. 😞');
