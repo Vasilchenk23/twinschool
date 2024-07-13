@@ -23,7 +23,7 @@ export const About = () => {
             <div className="presentation">
                 <embed className="presentation-file" src="./Twinschools-worldwide-schools.pdf" type="application/pdf"  width="1100px" height="auto" toolbar="0" />
             </div>
-            <p className="see-more-page">See more about Twinschools here</p>
+            <a href="https://drive.google.com/file/d/1HOvf_l7hqIq9SuGssq26-Q4GTqgyjYVa/view?usp=sharing" target="_blank" rel="noopener noreferrer"><p className="see-more-page">See more</p></a>
         </div>
         </>
     );

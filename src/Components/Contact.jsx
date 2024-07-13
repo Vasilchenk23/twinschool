@@ -35,7 +35,7 @@ export const Contact = () => {
             <h2 className="contact">Contact</h2>
             <div className="twinschool-form">
             <div>
-            <div className="div2">
+                    <div className="div2">
                         <h2 className="title-contact">
                         <span className="orange">T</span>
                         <span className="orange">w</span>
@@ -160,6 +160,7 @@ export const Contact = () => {
                         <p>Make Peace one Friendship at a Time</p>
                         <br />
                     </div>
+                    
                     <div className="div">
                         <p>VŠĮ Twinschools</p>
                         <p>tel. +370 673 756 25</p>
@@ -205,7 +206,6 @@ export const Contact = () => {
                             </div>
                        </div>
                 </div>
-                
                 </div>
             </div>
                 <div className="form">
