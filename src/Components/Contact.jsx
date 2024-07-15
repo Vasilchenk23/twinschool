@@ -7,9 +7,11 @@ export const Contact = () => {
         surname: '',
         email: '',
         question: ''
-      });
-    
-      const handleChange = (e) => {
+    });
+
+    const [showPopup, setShowPopup] = useState(false);
+
+    const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
@@ -18,7 +20,7 @@ export const Contact = () => {
         e.preventDefault();
         try {
             await axios.post('https://back-production-0fcf.up.railway.app/api/send-email', formData);
-            alert('Email sent successfully!😊');
+            setShowPopup(true);
         } catch (error) {
             alert('Failed to send email. Please try again.😞');
         }
@@ -303,6 +305,22 @@ export const Contact = () => {
             <img onClick={scrollToAbout} className='logo-footer' src="./img/logo.jpg" alt="" />
             <p>© 2024. All Rights Reserved</p>
         </div>
+        {showPopup && (
+                    <div className="popup">
+                        <div className="popup-inner">
+                            <div className="butt-pop-up">
+                                <svg onClick={() => setShowPopup(false)} width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.478 7.33504L15.7801 2.10645L13.644 0L8.34187 5.2286L3.28777 0.244627L1.15168 2.35108L6.20578 7.33504L0.931641 12.536L3.06773 14.6425L8.34187 9.44149L13.8641 14.8871L16.0002 12.7806L10.478 7.33504Z" fill="#1C3664"/>
+                                </svg>
+                            </div>
+                            <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M36 0H4C1.8 0 0.02 1.8 0.02 4L0 28C0 30.2 1.8 32 4 32H36C38.2 32 40 30.2 40 28V4C40 1.8 38.2 0 36 0ZM36 8L20 18L4 8V4L20 14L36 4V8Z" fill="#1C3664"/>
+                            </svg>
+                            <h2>THANK YOU</h2>
+                            <p>Your Message has been sent sent!</p>
+                        </div>
+                    </div>
+                )}
         </>
     );
 }
