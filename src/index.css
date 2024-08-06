@@ -905,6 +905,7 @@ header {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+  font-size: 40px;
 }
 
 .support {
@@ -933,7 +934,7 @@ header {
   border-bottom: 1px solid #FFFFFF;
   border-top: 1px solid #FFFFFF;
   width: 80%;
-  margin: 0px auto;
+  margin: 100px auto;
 }
 
 @media (max-width:1280px) {
@@ -979,6 +980,7 @@ header {
 
 .contact{
   text-align: center;
+  font-size: 40px;
 }
 
 .block-first-name {
@@ -1104,7 +1106,7 @@ input:focus {
   border-bottom: 1px solid #FFFFFF;
   border-top: 1px solid #FFFFFF;
   width: 80%;
-  margin: 0px auto;
+  margin: 100px auto;
 }
 
 textarea {
@@ -1152,6 +1154,10 @@ input:not(:placeholder-shown) + .placeholder {
 @media (max-width:1280px) {
   .twinschool-form {
     display: block;
+  }
+  .popup-inner {
+    width: 130%;
+    height: 700px;
   }
   .describe {
    margin: 0 auto;
@@ -1296,6 +1302,7 @@ input:not(:placeholder-shown) + .placeholder {
   height: 225px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid #1C3664;
 }
 
 .popup-inner h2 {
@@ -1315,18 +1322,6 @@ input:not(:placeholder-shown) + .placeholder {
   margin-bottom: 20px;
 }
 
-.popup-inner button {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.popup-inner button:hover {
-  background-color: #45a049;
-}
 
 
 
