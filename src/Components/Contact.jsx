@@ -19,7 +19,7 @@ export const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://back-production-0fcf.up.railway.app/api/send-email', formData);
+            await axios.post('https://back-production-ccd6.up.railway.app/api/send-email', formData);
             setShowPopup(true);
         } catch (error) {
             alert('Failed to send email. Please try again.😞');
